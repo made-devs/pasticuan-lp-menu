@@ -1,184 +1,22 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
+import HeroHeader from "./components/HeroHeader";
+import Sidebar from "./components/Sidebar/Sidebar";
+import SectionHeader from "./components/SectionHeader";
 import SliderImport from "./components/SliderImport";
 import SliderExport from "./components/SliderExport";
 import SliderMember from "./components/SliderMember";
-import SectionHeader from "./components/SectionHeader";
-import { useState, useEffect, useRef } from "react";
-import { X, Menu } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
-  const [openMenus, setOpenMenus] = useState({});
-  const sidebarRef = useRef();
-  const contentRefs = useRef({}); // ✅ FIX: dynamic refs per menu
-
-  const menuItems = [
-    {
-      title: "ALL MENU",
-      children: ["PAKET IMPORTIR", "PAKET EKSPOR", "PAKET MEMBER"],
-    },
-    {
-      title: "PROMO",
-      children: [
-        "REWARD MEMBER",
-        "PROMO EKSPOR",
-        "PROMO IMPOR",
-        "PROMO INTERNATIONAL",
-        "PROMO PASTI KILAT",
-        "PROMO ADDITIONAL SELLING",
-        "PROMO INTERNATIONAL MANDARIN",
-      ],
-    },
-    {
-      title: "COMPANY PROFILE",
-      children: ["PASTICUAN", "PASTIKILAT", "MEMBER", "EKSPOR", "KOMODITAS"],
-    },
-    {
-      title: "INVESTMENT",
-      children: ["HOW?", "INVESTMENT PLANS"],
-    },
-    {
-      title: "CONTACT US",
-      children: ["KOMODITAS"],
-    },
-  ];
-
-  useEffect(() => {
-    const el = sidebarRef.current;
-
-    if (isOpen && el) {
-      disableBodyScroll(el);
-    } else if (el) {
-      enableBodyScroll(el);
-    }
-
-    return () => {
-      if (el) enableBodyScroll(el);
-    };
-  }, [isOpen]);
-
-  const toggleMenu = (title) => {
-    setOpenMenus((prev) => ({
-      ...prev,
-      [title]: !prev[title],
-    }));
-  };
 
   return (
     <div className="w-full font-montserrat max-w-[430px] mx-auto bg-[#0a3b50] text-white relative overflow-hidden">
-      {/* HEADER */}
-      <header className="relative">
-        <div className="relative w-full aspect-[377/268]">
-          <Image
-            src="/hero.webp"
-            alt="Shipping Yard"
-            fill
-            className="object-cover"
-          />
-        </div>
+      <HeroHeader onOpenMenu={() => setIsOpen(true)} />
+      <Sidebar isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
-        <div className="absolute inset-0 flex justify-center items-center">
-          <div className="relative w-full h-12">
-            <Image
-              src="/logo.webp"
-              alt="Logo"
-              fill
-              className="object-contain drop-shadow-[1px_1px_2px_rgba(0,0,0,0.7)]"
-            />
-          </div>
-        </div>
-
-        <div className="absolute top-4 right-4 z-20">
-          <button onClick={() => setIsOpen(true)}>
-            <Menu className="text-white w-6 h-6 cursor-pointer" />
-          </button>
-        </div>
-      </header>
-
-      {/* SIDEBAR */}
-      <AnimatePresence>
-        {isOpen && (
-          <>
-            {/* Overlay */}
-            <motion.div
-              key="overlay"
-              className="absolute inset-0 bg-black/60 z-[998]"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.2 }}
-              onClick={() => setIsOpen(false)}
-            />
-
-            {/* Sidebar */}
-            <motion.div
-              ref={sidebarRef}
-              key="sidebar"
-              className="absolute right-0 top-0 w-3/4 max-w-[300px] h-screen bg-[#0a3b50] z-[999] p-4 pt-6 pb-10 space-y-6 shadow-lg overflow-y-auto scroll-smooth"
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
-              transition={{ type: "tween", duration: 0.3 }}
-            >
-              <div className="flex justify-between items-center px-2">
-                <Image src="/logo.webp" alt="Logo" width={120} height={30} />
-                <button onClick={() => setIsOpen(false)}>
-                  <X className="text-white w-6 h-6 cursor-pointer" />
-                </button>
-              </div>
-
-              {/* Menu Loop */}
-              {menuItems.map((menu) => (
-                <div key={menu.title}>
-                  {/* Main button */}
-                  <button
-                    onClick={() => toggleMenu(menu.title)}
-                    className="w-full flex justify-between items-center bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-xl shadow mb-2"
-                  >
-                    {menu.title}
-                    <span className="text-white text-sm">
-                      {openMenus[menu.title] ? "▾" : "▸"}
-                    </span>
-                  </button>
-
-                  {/* Dropdown */}
-                  <motion.div
-                    animate={{
-                      height: openMenus[menu.title]
-                        ? contentRefs.current[menu.title]?.scrollHeight ?? 0
-                        : 0,
-                      opacity: openMenus[menu.title] ? 1 : 0,
-                    }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="overflow-hidden px-4"
-                  >
-                    <div
-                      ref={(el) => {
-                        if (el) contentRefs.current[menu.title] = el;
-                      }}
-                    >
-                      {menu.children?.map((child, idx) => (
-                        <div
-                          key={idx}
-                          className="py-1 pl-2 text-sm border-b border-white/20 text-white hover:underline cursor-pointer"
-                        >
-                          {child}
-                        </div>
-                      ))}
-                    </div>
-                  </motion.div>
-                </div>
-              ))}
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
-
-      {/* CONTENT SECTION */}
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
@@ -215,5 +53,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    // <h1>Hello</h1>
   );
 }
