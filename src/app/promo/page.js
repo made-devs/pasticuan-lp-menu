@@ -20,7 +20,7 @@ export default function PromoPage() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="/bg.webp"
+            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"
