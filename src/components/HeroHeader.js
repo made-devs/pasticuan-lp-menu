@@ -8,7 +8,7 @@ export default function HeroHeader({ onOpenMenu }) {
     <header className="relative">
       <div className="relative w-full aspect-[377/268]">
         <Image
-          src="/hero.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743755832/pasticuan/hero.webp"
           alt="Shipping Yard"
           fill
           className="object-cover"
