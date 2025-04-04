@@ -37,8 +37,8 @@ export default function PromoPage() {
           </div>
 
           {/* Section + Slider Reusable */}
-          <SectionHeader title="SELLING MEMBER" />
-          <SliderPromo category="sellingMember" />
+          <SectionHeader title="REWARD MEMBER" />
+          <SliderPromo category="rewardMember" />
 
           <SectionHeader title="EKSPOR" />
           <SliderPromo category="ekspor" />

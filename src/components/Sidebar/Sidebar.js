@@ -63,6 +63,19 @@ export default function Sidebar({ isOpen, onClose }) {
     }));
   };
 
+  const getSlugPath = (parentTitle, childTitle) => {
+    const parentSlug = parentTitle.toLowerCase().replace(/\s+/g, "-");
+    const childSlug = childTitle.toLowerCase().replace(/\s+/g, "-");
+
+    // Khusus PROMO dan punya anak, kita nested
+    if (parentSlug === "promo") {
+      return `/promo/${childSlug}`;
+    }
+
+    // Selain promo, tetap biasa aja
+    return `/${childSlug}`;
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -141,13 +154,13 @@ export default function Sidebar({ isOpen, onClose }) {
                     }}
                   >
                     {menu.children?.map((child, idx) => {
-                      const slug = child.toLowerCase().replace(/\s+/g, "-");
+                      const path = getSlugPath(menu.title, child);
 
                       return (
                         <button
                           key={idx}
                           onClick={() => {
-                            router.push(`/${slug}`);
+                            router.push(path);
                             onClose();
                           }}
                           className="w-full text-left py-1 pl-2 text-sm border-b border-white/20 text-white hover:underline cursor-pointer"

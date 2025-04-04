@@ -1,7 +1,7 @@
 // src/data/promoData.js
 
 const promoData = {
-  sellingMember: [
+  rewardMember: [
     "https://res.cloudinary.com/df7lzicrz/image/upload/v1743756893/pasticuan/selling-member-1.webp",
     "https://res.cloudinary.com/df7lzicrz/image/upload/v1743756892/pasticuan/selling-member-2.webp",
     "https://res.cloudinary.com/df7lzicrz/image/upload/v1743757019/pasticuan/selling-member-3.webp",
