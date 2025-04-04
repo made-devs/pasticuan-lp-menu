@@ -11,17 +11,20 @@ const importirPackages = [
   {
     title: "IMPORTIR PEMULA",
     price: "$100.00",
-    image: "/pemula.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751513/pasticuan/pemula.webp",
   },
   {
     title: "IMPORTIR PRINCIPAL",
     price: "$100.00",
-    image: "/principal.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751666/pasticuan/principal.webp",
   },
   {
     title: "IMPORTIR UMKM",
     price: "$100.00",
-    image: "/umkm.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751789/pasticuan/umkm.webp",
   },
 ];
 

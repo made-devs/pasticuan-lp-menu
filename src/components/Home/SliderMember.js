@@ -11,17 +11,20 @@ const memberPackages = [
   {
     title: "MEMBER GOLD",
     price: "$100.00",
-    image: "/membergold.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752608/pasticuan/member-gold.webp",
   },
   {
     title: "MEMBER PLATINUM",
     price: "$100.00",
-    image: "/memberplatinum.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752643/pasticuan/member-platinum.webp",
   },
   {
     title: "MEMBER DIAMOND",
     price: "$100.00",
-    image: "/memberdiamond.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752666/pasticuan/member-diamond.webp",
   },
 ];
 

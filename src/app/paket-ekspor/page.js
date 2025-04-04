@@ -10,13 +10,15 @@ import ProductModal from "@/components/ProductModal";
 
 const dummyExportProducts = [
   {
-    title: "EKSPOR PEMULA",
-    desc: "Solusi sederhana untuk pemula yang ingin ekspor dengan percaya diri.",
+    title: "EKSPOR UMKM",
+    desc: "Solusi sederhana untuk UMKM yang ingin ekspor dengan percaya diri.",
     desc_modal:
       "Paket Ekspor Pemula membantu Anda menavigasi proses ekspor dengan mudah, termasuk panduan dokumen, logistik, dan akses pasar.",
     price: "$120.00",
-    image: "/paketekspor-umkm.webp",
-    img_modal: "/modal-ekspor1.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754428/pasticuan/umkm-eks2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
   },
 ];
 
@@ -29,7 +31,7 @@ export default function PaketEksporPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"

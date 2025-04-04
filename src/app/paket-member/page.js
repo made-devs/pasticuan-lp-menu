@@ -15,8 +15,10 @@ const dummyMemberProducts = [
     desc_modal:
       "Paket MEMBER GOLD dirancang untuk Anda yang baru mulai bergabung dan ingin menikmati keuntungan dasar sebagai member.",
     price: "$30.00",
-    image: "/membergold.webp",
-    img_modal: "/modal-ekspor1.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752608/pasticuan/member-gold.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
   },
   {
     title: "MEMBER PLATINUM",
@@ -24,8 +26,10 @@ const dummyMemberProducts = [
     desc_modal:
       "Paket MEMBER PLATINUM cocok untuk Anda yang mulai aktif menggunakan layanan kami. Dapatkan diskon dan dukungan ekstra.",
     price: "$50.00",
-    image: "/memberplatinum.webp",
-    img_modal: "/modal-ekspor1.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752643/pasticuan/member-platinum.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
   },
   {
     title: "MEMBER DIAMOND",
@@ -33,8 +37,10 @@ const dummyMemberProducts = [
     desc_modal:
       "Paket MEMBER DIAMOND memberikan akses penuh ke fitur premium dan layanan prioritas, cocok untuk pengguna profesional.",
     price: "$80.00",
-    image: "/memberdiamond.webp",
-    img_modal: "/modal-ekspor1.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752666/pasticuan/member-diamond.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
   },
 ];
 
@@ -47,7 +53,7 @@ export default function PaketMemberPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"

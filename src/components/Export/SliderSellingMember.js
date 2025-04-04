@@ -11,20 +11,17 @@ const eksportirPackages = [
   {
     title: "EKSPOR UMKM",
     price: "$100.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752487/pasticuan/umkm-eks.webp",
+    image: "/umkm-eks.webp",
   },
   {
     title: "EKSPOR UMKM",
     price: "$100.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752487/pasticuan/umkm-eks.webp",
+    image: "/umkm-eks.webp",
   },
   {
     title: "EKSPOR UMKM",
     price: "$100.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752487/pasticuan/umkm-eks.webp",
+    image: "/umkm-eks.webp",
   },
 ];
 

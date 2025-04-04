@@ -15,8 +15,10 @@ const dummyProducts = [
     desc_modal:
       "Mulai perjalanan bisnis impor Anda dengan mudah melalui Paket Importir Pemula. Dirancang khusus untuk para pemula, paket ini memberikan solusi lengkap dan efisien agar Anda dapat memulai bisnis impor tanpa kebingungan",
     price: "$100.00",
-    image: "/pemula.webp",
-    img_modal: "/modal-import1.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751513/pasticuan/pemula.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753391/pasticuan/modal-importir-pemula.webp",
   },
   {
     title: "IMPORTIR PRINCIPAL",
@@ -24,8 +26,10 @@ const dummyProducts = [
     desc_modal:
       "Solusi terbaik untuk Anda yang ingin bekerja langsung dengan produsen internasional. Paket ini dirancang untuk mempermudah akses Anda ke produk-produk unggulan dari berbagai negara.",
     price: "$100.00",
-    image: "/principal.webp",
-    img_modal: "/modal-import2.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751666/pasticuan/principal.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753490/pasticuan/modal-importir-principal.webp",
   },
   {
     title: "IMPORTIR UMKM",
@@ -33,8 +37,10 @@ const dummyProducts = [
     desc_modal:
       "Solusi khusus untuk membantu UMKM mengakses produk impor dengan biaya efisien. Fokus pada pengembangan bisnis Anda, kami bantu logistiknya.",
     price: "$100.00",
-    image: "/umkm.webp",
-    img_modal: "/modal-import3.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743751789/pasticuan/umkm.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753482/pasticuan/modal-importir-umkm.webp",
   },
   {
     title: "IMPORTIR WHOLESALER",
@@ -42,8 +48,10 @@ const dummyProducts = [
     desc_modal:
       "Solusi ideal bagi grosir. Paket ini memberikan kemudahan akses produk impor dalam jumlah besar dengan harga kompetitif.",
     price: "$100.00",
-    image: "/wholesaler.webp",
-    img_modal: "/modal-import4.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753038/pasticuan/wholesaler.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753483/pasticuan/modal-importir-wholesaler.webp",
   },
   {
     title: "IMPORTIR FRANCHISOR ALL IN ONE",
@@ -51,8 +59,10 @@ const dummyProducts = [
     desc_modal:
       "Paket lengkap untuk franchisor yang ingin mengimpor bahan baku dari produsen internasional tanpa ribet.",
     price: "$100.00",
-    image: "/franchisor.webp",
-    img_modal: "/modal-import5.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753177/pasticuan/franchisor.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753483/pasticuan/modal-importir-franchisor.webp",
   },
   {
     title: "IMPORTIR DISTRIBUTOR",
@@ -60,8 +70,10 @@ const dummyProducts = [
     desc_modal:
       "Percepat distribusi dengan mengimpor produk berkualitas dalam jumlah besar dan distribusikan dengan mudah.",
     price: "$100.00",
-    image: "/distributor.webp",
-    img_modal: "/modal-import6.webp",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753297/pasticuan/distributor.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753486/pasticuan/modal-importir-distributor.webp",
   },
 ];
 
@@ -74,7 +86,7 @@ export default function PaketImportirPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"

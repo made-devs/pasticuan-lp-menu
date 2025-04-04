@@ -1,3 +1,5 @@
+// src/app/promo/page.js
+
 "use client";
 
 import { useState } from "react";
@@ -5,7 +7,7 @@ import Image from "next/image";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import HeroHeader from "@/components/HeroHeader";
 import SectionHeader from "@/components/SectionHeader";
-import SliderPromo from "@/components/Home/SliderExport";
+import SliderPromo from "@/components/Promo/SliderPromo";
 
 export default function PromoPage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +38,7 @@ export default function PromoPage() {
 
           {/* Section + Slider Reusable */}
           <SectionHeader title="SELLING MEMBER" />
-          <SliderPromo category="selling-member" />
+          <SliderPromo category="sellingMember" />
 
           <SectionHeader title="EKSPOR" />
           <SliderPromo category="ekspor" />
@@ -48,13 +50,13 @@ export default function PromoPage() {
           <SliderPromo category="international" />
 
           <SectionHeader title="PASTI KILAT" />
-          <SliderPromo category="pasti-kilat" />
+          <SliderPromo category="pastiKilat" />
 
           <SectionHeader title="ADDITIONAL SELLING" />
-          <SliderPromo category="additional-selling" />
+          <SliderPromo category="additionalSelling" />
 
           <SectionHeader title="INTERNATIONAL MANDARIN" />
-          <SliderPromo category="international-mandarin" />
+          <SliderPromo category="internationalMandarin" />
         </div>
       </section>
     </div>
