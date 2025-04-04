@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import Sidebar from "@/app/components/Sidebar/Sidebar";
-import ProductList from "@/app/components/ProductList";
-import ProductModal from "@/app/components/ProductModal";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import ProductList from "@/components/ProductList";
+import ProductModal from "@/components/ProductModal";
 
 const dummyMemberProducts = [
   {

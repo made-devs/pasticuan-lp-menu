@@ -10,10 +10,12 @@ import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 const menuItems = [
   {
     title: "ALL MENU",
+    link: "/",
     children: ["PAKET IMPORTIR", "PAKET EKSPOR", "PAKET MEMBER"],
   },
   {
     title: "PROMO",
+    link: "/promo",
     children: [
       "REWARD MEMBER",
       "PROMO EKSPOR",
@@ -95,16 +97,34 @@ export default function Sidebar({ isOpen, onClose }) {
 
             {menuItems.map((menu) => (
               <div key={menu.title}>
-                <button
-                  onClick={() => toggleMenu(menu.title)}
-                  className="w-full flex justify-between items-center bg-white/20 hover:bg-white/30 text-white font-bold py-2 px-4 rounded-xl shadow mb-2"
+                <div
+                  className="w-full flex justify-between items-center bg-white/20 text-white font-bold py-2 px-4 rounded-xl shadow mb-2 cursor-pointer"
+                  onClick={() => toggleMenu(menu.title)} // seluruh bar jadi bisa toggle dropdown
                 >
-                  {menu.title}
-                  <span className="text-white text-sm">
-                    {openMenus[menu.title] ? "▾" : "▸"}
-                  </span>
-                </button>
+                  {/* Tombol teks promo aja yang bisa redirect */}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation(); // biar gak ikut trigger parent
+                      if (menu.link) {
+                        router.push(menu.link);
+                        onClose();
+                      }
+                    }}
+                    className="hover:underline cursor-pointer"
+                  >
+                    {menu.title}
+                  </button>
 
+                  {/* Panah dropdown */}
+                  {menu.children && (
+                    <span className="ml-2 text-white text-sm">
+                      {openMenus[menu.title] ? "▾" : "▸"}
+                    </span>
+                  )}
+                </div>
+
+                {/* Dropdown submenu */}
                 <motion.div
                   animate={{
                     height: openMenus[menu.title]
@@ -123,15 +143,13 @@ export default function Sidebar({ isOpen, onClose }) {
                     {menu.children?.map((child, idx) => {
                       const slug = child.toLowerCase().replace(/\s+/g, "-");
 
-                      const handleClick = () => {
-                        router.push(`/${slug}`);
-                        onClose(); // nutup sidebar setelah klik
-                      };
-
                       return (
                         <button
                           key={idx}
-                          onClick={handleClick}
+                          onClick={() => {
+                            router.push(`/${slug}`);
+                            onClose();
+                          }}
                           className="w-full text-left py-1 pl-2 text-sm border-b border-white/20 text-white hover:underline cursor-pointer"
                         >
                           {child}

@@ -2,14 +2,12 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import HeroHeader from "@/components/HeroHeader";
 import Sidebar from "@/components/Sidebar/Sidebar";
+import HeroHeader from "@/components/HeroHeader";
 import SectionHeader from "@/components/SectionHeader";
-import SliderImport from "@/components/Home/SliderImport";
-import SliderExport from "@/components/Home/SliderExport";
-import SliderMember from "@/components/Home/SliderMember";
+import SliderPromo from "@/components/Home/SliderExport";
 
-export default function Home() {
+export default function PromoPage() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -31,28 +29,34 @@ export default function Home() {
           <div className="flex justify-center py-4">
             <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
               <span className="text-5xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                MENU
+                PROMO
               </span>
             </button>
           </div>
 
-          <SectionHeader title="PAKET IMPORTIR" />
-          <div className="px-4 pt-2 rounded">
-            <SliderImport />
-          </div>
+          {/* Section + Slider Reusable */}
+          <SectionHeader title="SELLING MEMBER" />
+          <SliderPromo category="selling-member" />
 
-          <SectionHeader title="PAKET EKSPORTIR" />
-          <div className="px-4 pt-2 rounded">
-            <SliderExport />
-          </div>
+          <SectionHeader title="EKSPOR" />
+          <SliderPromo category="ekspor" />
 
-          <SectionHeader title="PAKET MEMBER" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
+          <SectionHeader title="IMPOR" />
+          <SliderPromo category="impor" />
+
+          <SectionHeader title="INTERNATIONAL" />
+          <SliderPromo category="international" />
+
+          <SectionHeader title="PASTI KILAT" />
+          <SliderPromo category="pasti-kilat" />
+
+          <SectionHeader title="ADDITIONAL SELLING" />
+          <SliderPromo category="additional-selling" />
+
+          <SectionHeader title="INTERNATIONAL MANDARIN" />
+          <SliderPromo category="international-mandarin" />
         </div>
       </section>
     </div>
-    // <h1>Hello</h1>
   );
 }
