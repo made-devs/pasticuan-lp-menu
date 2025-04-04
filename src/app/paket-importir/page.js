@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Sidebar from "@/app/components/Sidebar/Sidebar";
+import ProductList from "@/app/components/ProductList";
+import ProductModal from "@/app/components/ProductModal";
 
 const dummyProducts = [
   {
@@ -113,102 +115,15 @@ export default function PaketImportirPage() {
       </div>
 
       {/* Product List */}
-      <div className="space-y-6 relative z-10">
-        {dummyProducts.map((item, idx) => (
-          <div
-            key={idx}
-            onClick={() => setSelectedProduct(item)}
-            className="flex items-start gap-4 p-3 border-b border-white/50 last:border-none cursor-pointer"
-          >
-            <div className="w-24 h-24 relative shrink-0">
-              <Image
-                src={item.image}
-                alt={item.title}
-                fill
-                className="rounded-md object-cover"
-              />
-            </div>
-            <div className="flex-1 space-y-1">
-              <h2 className="font-bold text-sm">{item.title}</h2>
-              <p className="text-xs text-white/80 leading-tight">{item.desc}</p>
-              <div className="flex justify-between items-center mt-2">
-                <span className="font-bold">{item.price}</span>
-                <button className="text-xs bg-orange-500 text-white font-semibold px-3 py-1 rounded-full shadow hover:bg-orange-600">
-                  Add Cart
-                </button>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <ProductList products={dummyProducts} onSelect={setSelectedProduct} />
 
       {/* Modal */}
       <AnimatePresence>
         {selectedProduct && (
-          <motion.div
-            className="fixed inset-0 z-[999] bg-black/60 flex items-end justify-center px-4 pb-6"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={(e) => {
-              if (e.target === e.currentTarget) {
-                setSelectedProduct(null);
-              }
-            }}
-          >
-            <motion.div
-              className="absolute inset-0 backdrop-blur-sm pointer-events-none"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-            />
-            <motion.div
-              className="relative z-10 w-full max-w-[430px] bg-gradient-to-b from-white via-white to-blue-200 rounded-t-3xl shadow-lg overflow-hidden max-h-[90vh] overflow-y-auto"
-              initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 100, opacity: 0 }}
-              transition={{ type: "tween", duration: 0.3 }}
-            >
-              {/* Gambar */}
-              <div className="w-full flex justify-center pt-4">
-                <div className="relative w-[90%] aspect-[2/2] rounded-xl overflow-hidden shadow-lg">
-                  <Image
-                    src={selectedProduct.img_modal}
-                    alt={selectedProduct.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-
-              {/* Konten */}
-              <div className="p-4 pt-6 px-5 space-y-3">
-                <div className="bg-black/40 rounded-xl p-3">
-                  <h2 className="text-[23px] font-extrabold text-white px-4 leading-tight text-center">
-                    PAKET {selectedProduct.title}
-                  </h2>
-                  <p className="text-sm leading-tight text-white/90 px-1 py-2">
-                    {selectedProduct.desc_modal}
-                  </p>
-                </div>
-                <button
-                  onClick={() => alert("ORDER NOW!")}
-                  className="w-full bg-orange-500 text-white font-bold py-3 rounded-full shadow-md hover:bg-orange-600 transition"
-                >
-                  ORDER NOW
-                </button>
-              </div>
-
-              {/* Tombol Tutup */}
-              <button
-                onClick={() => setSelectedProduct(null)}
-                className="absolute top-2 right-3 text-white text-3xl leading-none"
-              >
-                ×
-              </button>
-            </motion.div>
-          </motion.div>
+          <ProductModal
+            product={selectedProduct}
+            onClose={() => setSelectedProduct(null)}
+          />
         )}
       </AnimatePresence>
     </div>
