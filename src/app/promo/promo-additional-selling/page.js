@@ -36,17 +36,52 @@ export default function Home() {
             </button>
           </div>
 
-          <SectionHeader title="PAKET IMPORTIR" href="/paket-importir" />
+          <SectionHeader title="PAKET BASIC" href="/paket-importir" />
           <div className="px-4 pt-2 rounded">
             <SliderImport />
           </div>
 
-          <SectionHeader title="PAKET EKSPORTIR" href="/paket-ekspor" />
+          <SectionHeader title="PAKET PRO" href="/paket-ekspor" />
           <div className="px-4 pt-2 rounded">
             <SliderExport />
           </div>
 
-          <SectionHeader title="PAKET MEMBER" href="/paket-member" />
+          <SectionHeader title="PAKET PREMIUM" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET JASA REVISI" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET CUSTOM" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET KONSULTASI PAJAK" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET COMPRO" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET BUSSINESS" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET EXPERT" href="/paket-member" />
+          <div className="px-4 pt-2 rounded">
+            <SliderMember />
+          </div>
+
+          <SectionHeader title="PAKET ENTERPRISE" href="/paket-member" />
           <div className="px-4 pt-2 rounded">
             <SliderMember />
           </div>

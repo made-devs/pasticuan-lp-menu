@@ -7,8 +7,7 @@ export default function ProductList({ products, onSelect }) {
       {products.map((item, idx) => (
         <div
           key={idx}
-          onClick={() => onSelect(item)}
-          className="flex items-start gap-4 p-3 border-b border-white/50 last:border-none cursor-pointer"
+          className="flex items-start gap-4 p-3 border-b border-white/50 last:border-none"
         >
           <div className="w-24 h-24 relative shrink-0">
             <Image
@@ -23,8 +22,11 @@ export default function ProductList({ products, onSelect }) {
             <p className="text-xs text-white/80 leading-tight">{item.desc}</p>
             <div className="flex justify-between items-center mt-2">
               <span className="font-bold">{item.price}</span>
-              <button className="text-xs bg-orange-500 text-white font-semibold px-3 py-1 rounded-full shadow hover:bg-orange-600">
-                Add Cart
+              <button
+                onClick={() => onSelect(item)}
+                className="text-xs bg-orange-500 text-white font-semibold px-3 py-1 rounded-full shadow hover:bg-orange-600 cursor-pointer"
+              >
+                {item.cta}
               </button>
             </div>
           </div>

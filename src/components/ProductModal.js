@@ -42,7 +42,7 @@ export default function ProductModal({ product, onClose }) {
         <div className="p-4 pt-6 px-5 space-y-3">
           <div className="bg-black/40 rounded-xl p-3">
             <h2 className="text-[23px] font-extrabold text-white px-4 leading-tight text-center">
-              PAKET {product.title}
+              {product.title}
             </h2>
             <p className="text-sm leading-tight text-white/90 px-1 py-2">
               {product.desc_modal}

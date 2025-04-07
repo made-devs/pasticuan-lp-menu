@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import ProductList from "@/components/ProductList";
 import ProductModal from "@/components/ProductModal";
-import promoRewardMember from "@/data/promoRewardMember";
+import { promoEksporData } from "@/data/promoData";
 
 export default function PaketImportirPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -59,7 +59,7 @@ export default function PaketImportirPage() {
       </div>
 
       {/* Product List */}
-      <ProductList products={promoRewardMember} onSelect={setSelectedProduct} />
+      <ProductList products={promoEksporData} onSelect={setSelectedProduct} />
 
       {/* Modal */}
       <AnimatePresence>

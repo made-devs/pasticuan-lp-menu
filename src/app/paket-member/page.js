@@ -7,42 +7,7 @@ import { AnimatePresence } from "framer-motion";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import ProductList from "@/components/ProductList";
 import ProductModal from "@/components/ProductModal";
-
-const dummyMemberProducts = [
-  {
-    title: "MEMBER GOLD",
-    desc: "Paket dasar untuk pemula yang ingin mencoba menjadi member.",
-    desc_modal:
-      "Paket MEMBER GOLD dirancang untuk Anda yang baru mulai bergabung dan ingin menikmati keuntungan dasar sebagai member.",
-    price: "$30.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752608/pasticuan/member-gold.webp",
-    img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
-  },
-  {
-    title: "MEMBER PLATINUM",
-    desc: "Paket dengan benefit lebih untuk pengguna aktif.",
-    desc_modal:
-      "Paket MEMBER PLATINUM cocok untuk Anda yang mulai aktif menggunakan layanan kami. Dapatkan diskon dan dukungan ekstra.",
-    price: "$50.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752643/pasticuan/member-platinum.webp",
-    img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
-  },
-  {
-    title: "MEMBER DIAMOND",
-    desc: "Paket eksklusif dengan akses penuh ke semua fitur premium.",
-    desc_modal:
-      "Paket MEMBER DIAMOND memberikan akses penuh ke fitur premium dan layanan prioritas, cocok untuk pengguna profesional.",
-    price: "$80.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743752666/pasticuan/member-diamond.webp",
-    img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
-  },
-];
+import { allMemberPackages } from "@/data/dataPaket";
 
 export default function PaketMemberPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -94,10 +59,7 @@ export default function PaketMemberPage() {
       </div>
 
       {/* Product List */}
-      <ProductList
-        products={dummyMemberProducts}
-        onSelect={setSelectedProduct}
-      />
+      <ProductList products={allMemberPackages} onSelect={setSelectedProduct} />
 
       {/* Modal */}
       <AnimatePresence>

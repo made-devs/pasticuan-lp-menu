@@ -1,12 +1,10 @@
-// src/components/Home/SliderPromo.js
-
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination } from "swiper/modules";
 import Image from "next/image";
-import promoData from "@/data/promoData";
+import { promoData } from "@/data/promoData";
 
 export default function SliderPromo({ category }) {
   const images = promoData[category] || [];

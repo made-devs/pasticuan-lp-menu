@@ -7,20 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import ProductList from "@/components/ProductList";
 import ProductModal from "@/components/ProductModal";
-
-const dummyExportProducts = [
-  {
-    title: "EKSPOR UMKM",
-    desc: "Solusi sederhana untuk UMKM yang ingin ekspor dengan percaya diri.",
-    desc_modal:
-      "Paket Ekspor Pemula membantu Anda menavigasi proses ekspor dengan mudah, termasuk panduan dokumen, logistik, dan akses pasar.",
-    price: "$120.00",
-    image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754428/pasticuan/umkm-eks2.webp",
-    img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743754510/pasticuan/modal-ekspor-umkm.webp",
-  },
-];
+import { allExportPackages } from "@/data/dataPaket";
 
 export default function PaketEksporPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -72,10 +59,7 @@ export default function PaketEksporPage() {
       </div>
 
       {/* Product List */}
-      <ProductList
-        products={dummyExportProducts}
-        onSelect={setSelectedProduct}
-      />
+      <ProductList products={allExportPackages} onSelect={setSelectedProduct} />
 
       {/* Modal */}
       <AnimatePresence>

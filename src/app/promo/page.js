@@ -37,25 +37,31 @@ export default function PromoPage() {
           </div>
 
           {/* Section + Slider Reusable */}
-          <SectionHeader title="REWARD MEMBER" />
+          <SectionHeader title="REWARD MEMBER" href="/reward-member" />
           <SliderPromo category="rewardMember" />
 
-          <SectionHeader title="EKSPOR" />
+          <SectionHeader title="EKSPOR" href="/promo-ekspor" />
           <SliderPromo category="ekspor" />
 
-          <SectionHeader title="IMPOR" />
+          <SectionHeader title="IMPOR" href="/promo-impor" />
           <SliderPromo category="impor" />
 
-          <SectionHeader title="INTERNATIONAL" />
+          <SectionHeader title="INTERNATIONAL" href="/promo-international" />
           <SliderPromo category="international" />
 
-          <SectionHeader title="PASTI KILAT" />
+          <SectionHeader title="PASTI KILAT" href="/promo-pasti-kilat" />
           <SliderPromo category="pastiKilat" />
 
-          <SectionHeader title="ADDITIONAL SELLING" />
+          <SectionHeader
+            title="ADDITIONAL SELLING"
+            href="/promo-additional-selling"
+          />
           <SliderPromo category="additionalSelling" />
 
-          <SectionHeader title="INTERNATIONAL MANDARIN" />
+          <SectionHeader
+            title="INTERNATIONAL MANDARIN"
+            href="promo-international-mandarin"
+          />
           <SliderPromo category="internationalMandarin" />
         </div>
       </section>

@@ -10,6 +10,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/1.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/1.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "NO PROFESIONAL FEE (KHUSUS BULAN INI)",
@@ -20,6 +21,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/2.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/2.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "FREE KONSULTAN BISNIS EXPERT LANJUTAN",
@@ -30,6 +32,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/3.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/3.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "CUSTOMER SERVICE 24/7",
@@ -40,6 +43,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/4.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/4.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "FREE VISIT SHOWROOM MELIHAT SAMPLE BARANG",
@@ -50,6 +54,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/5.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/5.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN LOGO BRAND (3X REVISI)",
@@ -57,9 +62,10 @@ const promoImpor = [
     desc_modal:
       "Maksimalkan peluang bisnis Anda dengan Member Platinum PastiCuan! Dengan diskon spesial 84%, Anda bisa menikmati berbagai keuntungan eksklusif seperti FREE 35 Barang Impor Lintas Komoditas, 22 Promo Gratis Buyer Member, serta komisi penjualan, referral, dan cargo Platinum.",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/7.webp",
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/6.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/7.webp",
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "FREE 1 WEBSITE PREMIUM",
@@ -70,6 +76,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/7.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/7.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN STATER PACK & SET UP : INSTAGRAM / TIKTOK",
@@ -80,6 +87,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/8.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/8.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN COPYWRITING PROFESIONAL",
@@ -90,6 +98,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/9.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/9.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN KONSEP MARKETPLACE",
@@ -100,6 +109,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/10.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743767471/pasticuan/promo-impor/10.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN SAMPLE KONTEN PROFESIONAL",
@@ -110,6 +120,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN SAMPLE KATALOG PRODUK",
@@ -120,6 +131,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN LANDING PAGE BISNIS",
@@ -130,6 +142,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN TEXT WA BISNIS",
@@ -140,6 +153,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "PEMBUATAN GOOGLE MAPS + GALLERY PROFESIONAL",
@@ -150,6 +164,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING DIGITAL MARKETING EXPERT",
@@ -160,6 +175,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING TAX",
@@ -170,6 +186,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING HUKUM",
@@ -180,6 +197,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING ADS / IKLAN",
@@ -190,6 +208,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING SEO BASIC",
@@ -200,6 +219,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "COACHING CONTENT CREATOR EXPERT",
@@ -210,6 +230,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
   {
     title: "FREE MENJADI MEMBERSHIP PASTICUAN.CO.ID",
@@ -220,6 +241,7 @@ const promoImpor = [
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
     img_modal:
       "https://res.cloudinary.com/df7lzicrz/image/upload/v1743763718/pasticuan/reward-member/6.webp",
+    cta: "LIHAT DETAIL",
   },
 ];
 
