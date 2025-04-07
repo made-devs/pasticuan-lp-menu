@@ -1,93 +1,97 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import HeroHeader from "@/components/HeroHeader";
+import Link from "next/link";
+import { useState } from "react";
 import Sidebar from "@/components/Sidebar/Sidebar";
-import SectionHeader from "@/components/SectionHeader";
-import SliderImport from "@/components/Home/SliderImport";
-import SliderExport from "@/components/Home/SliderExport";
-import SliderMember from "@/components/Home/SliderMember";
+import SectionCarousel from "@/components/Promo/SectionCarousel";
 
-export default function Home() {
+export default function PaketImportirPage() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full font-montserrat max-w-[430px] mx-auto bg-[#0a3b50] text-white relative overflow-hidden">
-      <HeroHeader onOpenMenu={() => setIsOpen(true)} />
+    <div className="w-full max-w-[430px] mx-auto min-h-screen text-white font-montserrat relative overflow-hidden px-4 pb-10">
+      {/* Background */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
+          alt="Background texture"
+          fill
+          className="object-cover opacity-50"
+        />
+      </div>
+
+      {/* Sidebar */}
       <Sidebar isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
-      <section className="relative px-4 space-y-8 pb-10">
-        <div className="absolute inset-0">
-          <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
-            alt="Background texture"
-            fill
-            className="object-cover opacity-50"
+      {/* Top Bar */}
+      <div className="flex items-center justify-between py-4 relative z-10">
+        <Link href="/">
+          <button className="text-white cursor-pointer text-xl">{`←`}</button>
+        </Link>
+        <div className="relative w-[80%]">
+          <input
+            type="text"
+            placeholder="Search from here"
+            className="w-full rounded-full px-4 py-2 text-sm text-black placeholder:text-gray-400"
           />
+          <div className="absolute right-2 top-1/2 -translate-y-1/2">🔍</div>
         </div>
+        <button
+          className="text-white cursor-pointer text-xl"
+          onClick={() => setIsOpen(true)}
+        >
+          ☰
+        </button>
+      </div>
 
-        <div className="relative z-10 pt-2">
-          <div className="flex justify-center py-4">
-            <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
-              <span className="text-5xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                MENU
-              </span>
-            </button>
-          </div>
-
-          <SectionHeader title="PAKET BASIC" href="/paket-importir" />
-          <div className="px-4 pt-2 rounded">
-            <SliderImport />
-          </div>
-
-          <SectionHeader title="PAKET PRO" href="/paket-ekspor" />
-          <div className="px-4 pt-2 rounded">
-            <SliderExport />
-          </div>
-
-          <SectionHeader title="PAKET PREMIUM" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET JASA REVISI" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET CUSTOM" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET KONSULTASI PAJAK" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET COMPRO" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET BUSSINESS" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET EXPERT" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
-
-          <SectionHeader title="PAKET ENTERPRISE" href="/paket-member" />
-          <div className="px-4 pt-2 rounded">
-            <SliderMember />
-          </div>
+      {/* Judul */}
+      <div className="flex justify-center mb-6 relative z-10">
+        <div className="bg-orange-500 px-6 py-2 rounded-full shadow-md">
+          <h1 className="text-xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,0.7)]">
+            ADDITONAL SELLING
+          </h1>
         </div>
-      </section>
+      </div>
+
+      {/* Section + Slider Reusable */}
+      <div className="relative z-10">
+        <SectionCarousel
+          title="PAKET BASIC"
+          href="/paket-basic"
+          category="paketBasic"
+        />
+        <SectionCarousel
+          title="PAKET PRO"
+          href="/paket-pro"
+          category="paketPro"
+        />
+        <SectionCarousel
+          title="PAKET PREMIUM"
+          href="/paket-premium"
+          category="paketPremium"
+        />
+        <SectionCarousel
+          title="PAKET JASA REVISI"
+          href="/paket-jasa-revisi"
+          category="paketJasaRevisi"
+        />
+        <SectionCarousel
+          title="PAKET CUSTOM"
+          href="/paket-custom"
+          category="paketCustom"
+        />
+        <SectionCarousel
+          title="PAKET KONSULTASI PAJAK"
+          href="/paket-konsultasi-pajak"
+          category="paketKonsultasiPajak"
+        />
+        <SectionCarousel
+          title="PAKET COMPRO"
+          href="/paket-compro"
+          category="paketCompro"
+        />
+      </div>
     </div>
-    // <h1>Hello</h1>
   );
 }

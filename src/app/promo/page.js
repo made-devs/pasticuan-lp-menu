@@ -6,6 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import HeroHeader from "@/components/HeroHeader";
+import SectionCarousel from "@/components/Promo/SectionCarousel";
 import SectionHeader from "@/components/SectionHeader";
 import SliderPromo from "@/components/Promo/SliderPromo";
 
@@ -36,33 +37,37 @@ export default function PromoPage() {
             </button>
           </div>
 
-          {/* Section + Slider Reusable */}
-          <SectionHeader title="REWARD MEMBER" href="/reward-member" />
-          <SliderPromo category="rewardMember" />
-
-          <SectionHeader title="EKSPOR" href="/promo-ekspor" />
-          <SliderPromo category="ekspor" />
-
-          <SectionHeader title="IMPOR" href="/promo-impor" />
-          <SliderPromo category="impor" />
-
-          <SectionHeader title="INTERNATIONAL" href="/promo-international" />
-          <SliderPromo category="international" />
-
-          <SectionHeader title="PASTI KILAT" href="/promo-pasti-kilat" />
-          <SliderPromo category="pastiKilat" />
-
-          <SectionHeader
+          <SectionCarousel
+            title="REWARD MEMBER"
+            href="/reward-member"
+            category="rewardMember"
+          />
+          <SectionCarousel
+            title="EKSPOR"
+            href="/promo-ekspor"
+            category="ekspor"
+          />
+          <SectionCarousel title="IMPOR" href="/promo-impor" category="impor" />
+          <SectionCarousel
+            title="INTERNATIONAL"
+            href="/promo-international"
+            category="international"
+          />
+          <SectionCarousel
+            title="PASTI KILAT"
+            href="/promo-pasti-kilat"
+            category="pastiKilat"
+          />
+          <SectionCarousel
             title="ADDITIONAL SELLING"
             href="/promo-additional-selling"
+            category="additionalSelling"
           />
-          <SliderPromo category="additionalSelling" />
-
-          <SectionHeader
+          <SectionCarousel
             title="INTERNATIONAL MANDARIN"
-            href="promo-international-mandarin"
+            href="/promo-international-mandarin"
+            category="internationalMandarin"
           />
-          <SliderPromo category="internationalMandarin" />
         </div>
       </section>
     </div>
