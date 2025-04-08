@@ -1,12 +1,14 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import Sidebar from "@/components/Sidebar/Sidebar";
-import SectionCarousel from "@/components/Promo/SectionCarousel";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import Sidebar from '@/components/Sidebar/Sidebar';
+import SectionCarousel from '@/components/Promo/SectionCarousel';
+import ImageCarousel from '../../../components/Promo/ImageCarousel';
+import { additionalSellingData } from '../../../data/promoData';
 
-export default function PaketImportirPage() {
+export default function AdditionalSellingPage() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -56,40 +58,65 @@ export default function PaketImportirPage() {
 
       {/* Section + Slider Reusable */}
       <div className="relative z-10">
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET BASIC"
           href="/paket-basic"
           category="paketBasic"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET PRO"
           href="/paket-pro"
           category="paketPro"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET PREMIUM"
           href="/paket-premium"
           category="paketPremium"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET JASA REVISI"
           href="/paket-jasa-revisi"
           category="paketJasaRevisi"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET CUSTOM"
           href="/paket-custom"
           category="paketCustom"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET KONSULTASI PAJAK"
           href="/paket-konsultasi-pajak"
           category="paketKonsultasiPajak"
+          dataSource={additionalSellingData}
         />
-        <SectionCarousel
+        <ImageCarousel
           title="PAKET COMPRO"
           href="/paket-compro"
           category="paketCompro"
+          dataSource={additionalSellingData}
+        />
+        <ImageCarousel
+          title="PAKET BUSSINESS"
+          href="/paket-bussiness"
+          category="paketBussiness"
+          dataSource={additionalSellingData}
+        />
+        <ImageCarousel
+          title="PAKET EXPERT"
+          href="/paket-expert"
+          category="paketExpert"
+          dataSource={additionalSellingData}
+        />
+        <ImageCarousel
+          title="PAKET ENTERPRISE"
+          href="/paket-enterprise"
+          category="paketEnterprise"
+          dataSource={additionalSellingData}
         />
       </div>
     </div>

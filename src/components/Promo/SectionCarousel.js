@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import SectionHeader from "@/components/SectionHeader";
-import SliderPromo from "@/components/Promo/SliderPromo";
+import SectionHeader from '@/components/SectionHeader';
+import SliderPromo from '@/components/Promo/ImageCarousel';
 
 const SectionCarousel = ({ title, href, category }) => {
   return (

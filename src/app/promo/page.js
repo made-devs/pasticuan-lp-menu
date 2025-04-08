@@ -1,14 +1,13 @@
 // src/app/promo/page.js
 
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
-import Sidebar from "@/components/Sidebar/Sidebar";
-import HeroHeader from "@/components/HeroHeader";
-import SectionCarousel from "@/components/Promo/SectionCarousel";
-import SectionHeader from "@/components/SectionHeader";
-import SliderPromo from "@/components/Promo/SliderPromo";
+import { useState } from 'react';
+import Image from 'next/image';
+import Sidebar from '@/components/Sidebar/Sidebar';
+import HeroHeader from '@/components/HeroHeader';
+import { promoData } from '../../data/promoData';
+import ImageCarousel from '@/components/Promo/ImageCarousel';
 
 export default function PromoPage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,36 +36,47 @@ export default function PromoPage() {
             </button>
           </div>
 
-          <SectionCarousel
+          <ImageCarousel
             title="REWARD MEMBER"
-            href="/reward-member"
+            href="/promo/reward-member"
             category="rewardMember"
+            dataSource={promoData}
           />
-          <SectionCarousel
+          <ImageCarousel
             title="EKSPOR"
-            href="/promo-ekspor"
+            href="/promo/promo-ekspor"
             category="ekspor"
+            dataSource={promoData}
           />
-          <SectionCarousel title="IMPOR" href="/promo-impor" category="impor" />
-          <SectionCarousel
+          <ImageCarousel
+            title="IMPOR"
+            href="/promo/promo-impor"
+            category="impor"
+            dataSource={promoData}
+          />
+          <ImageCarousel
             title="INTERNATIONAL"
-            href="/promo-international"
+            href="/promo/promo-international"
             category="international"
+            dataSource={promoData}
           />
-          <SectionCarousel
+          <ImageCarousel
             title="PASTI KILAT"
-            href="/promo-pasti-kilat"
+            href="/promo/promo-pasti-kilat"
             category="pastiKilat"
+            dataSource={promoData}
           />
-          <SectionCarousel
+          <ImageCarousel
             title="ADDITIONAL SELLING"
-            href="/promo-additional-selling"
+            href="/promo/promo-additional-selling"
             category="additionalSelling"
+            dataSource={promoData}
           />
-          <SectionCarousel
+          <ImageCarousel
             title="INTERNATIONAL MANDARIN"
-            href="/promo-international-mandarin"
+            href="/promo/promo-international-mandarin"
             category="internationalMandarin"
+            dataSource={promoData}
           />
         </div>
       </section>
