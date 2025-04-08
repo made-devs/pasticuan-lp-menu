@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import SectionCarousel from '@/components/Promo/SectionCarousel';
-import ImageCarousel from '../../../components/Promo/ImageCarousel';
-import { additionalSellingData } from '../../../data/promoData';
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import SectionCarousel from "@/components/Promo/SectionCarousel";
+import ImageCarousel from "../../../components/Promo/ImageCarousel";
+import { additionalSellingData } from "../../../data/promoData";
 
 export default function AdditionalSellingPage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function AdditionalSellingPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"
@@ -60,61 +60,61 @@ export default function AdditionalSellingPage() {
       <div className="relative z-10">
         <ImageCarousel
           title="PAKET BASIC"
-          href="/paket-basic"
+          href="/promo/promo-additional-selling/paket-basic"
           category="paketBasic"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET PRO"
-          href="/paket-pro"
+          href="/promo/promo-additional-selling/paket-pro"
           category="paketPro"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET PREMIUM"
-          href="/paket-premium"
+          href="/promo/promo-additional-selling/paket-premium"
           category="paketPremium"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET JASA REVISI"
-          href="/paket-jasa-revisi"
+          href="/promo/promo-additional-selling/paket-jasa-revisi"
           category="paketJasaRevisi"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET CUSTOM"
-          href="/paket-custom"
+          href="/promo/promo-additional-selling/paket-custom"
           category="paketCustom"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET KONSULTASI PAJAK"
-          href="/paket-konsultasi-pajak"
+          href="/promo/promo-additional-selling/paket-konsultasi-pajak"
           category="paketKonsultasiPajak"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET COMPRO"
-          href="/paket-compro"
+          href="/promo/promo-additional-selling/paket-compro"
           category="paketCompro"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET BUSSINESS"
-          href="/paket-bussiness"
+          href="/promo/promo-additional-selling/paket-bussiness"
           category="paketBussiness"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET EXPERT"
-          href="/paket-expert"
+          href="/promo/promo-additional-selling/paket-expert"
           category="paketExpert"
           dataSource={additionalSellingData}
         />
         <ImageCarousel
           title="PAKET ENTERPRISE"
-          href="/paket-enterprise"
+          href="/promo/promo-additional-selling/paket-enterprise"
           category="paketEnterprise"
           dataSource={additionalSellingData}
         />

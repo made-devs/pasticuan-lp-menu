@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import HeroHeader from "@/components/HeroHeader";
 import Sidebar from "@/components/Sidebar/Sidebar";
@@ -21,7 +21,7 @@ export default function Home() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
+            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096133/pasticuan/bg-long.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"

@@ -30,12 +30,14 @@ export default function ProductModal({ product, onClose }) {
         transition={{ type: "tween", duration: 0.3 }}
       >
         <div className="w-full flex justify-center pt-4">
-          <div className="relative w-[90%] aspect-[2/2] rounded-xl overflow-hidden shadow-lg">
+          <div className="relative w-[90%] mx-auto rounded-xl overflow-hidden shadow-lg">
             <Image
               src={product.img_modal}
               alt={product.title}
-              fill
-              className="object-cover"
+              width={800} // atau angka maksimal sesuai kebutuhan
+              height={0}
+              sizes="(max-width: 430px) 90vw, 800px"
+              className="w-full h-auto rounded-xl object-contain"
             />
           </div>
         </div>
