@@ -468,3 +468,288 @@ export const paketPremium = [
     cta: "LIHAT DETAIL",
   },
 ];
+
+export const paketJasaRevisi = [
+  {
+    title: "JASA REVISI MATERI GAMBAR",
+    desc: "Layanan revisi materi gambar dan template website berdasarkan konsep bisnis yang disampaikan klien, termasuk 3 tahap revisi (template, materi isi, dan materi gambar) dengan jadwal yang disepakati bersama.",
+    desc_modal:
+      "Tim Pasticuan bantu revisi materi gambar sesuai konsep bisnis yang kamu isi lewat form. Kami kasih 3 referensi template, siapin materinya, lalu revisi bareng kamu. Revisi dibagi jadi 3 tahap: 1x revisi template, 3x revisi isi, dan 3x revisi gambar. Kalau lewat kuota, ada charge tambahan sesuai ketentuan.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "JASA REVISI MATERI ISI WEBSITE",
+    desc: "Layanan revisi konten website yang disusun berdasarkan konsep bisnis Anda.",
+    desc_modal:
+      "Tim Pasticuan akan membantu Anda menyesuaikan konten website berdasarkan konsep bisnis yang Anda isi di form khusus. Anda akan diberikan 3 referensi template website, lalu tim kami akan menyiapkan materi dan melakukan 3 tahapan revisi: revisi template (1x), revisi isi materi (3x), dan revisi materi gambar (3x). Deadline dan revisi dikoordinasikan langsung dengan Anda untuk memastikan hasil akhir sesuai ekspektasi.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "JASA REVISI TEMPLATE WEBSITE",
+    desc: "Revisi tampilan website berbasis template sesuai konsep bisnis yang Anda tentukan.",
+    desc_modal:
+      "Layanan ini mencakup penyusunan tampilan website berdasarkan konsep bisnis Anda yang diisi melalui form khusus. Anda akan menerima 3 referensi template yang bisa dipilih, lalu tim kami akan menyesuaikannya dan melakukan 1x revisi template, 3x revisi isi materi, serta 3x revisi gambar. Seluruh proses dilakukan secara bertahap dan dikonsultasikan langsung bersama Anda.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/3.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/3.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "JASA ADS MEDIA SOSIAL",
+    desc: "Pengelolaan iklan profesional untuk platform media sosial dengan strategi dan target yang tepat.",
+    desc_modal:
+      "Kami menyediakan layanan pengelolaan iklan di satu platform media sosial pilihan Anda. Mulai dari pembuatan kampanye iklan setiap bulan, penargetan audiens yang sangat spesifik, hingga A/B testing dan optimasi secara berkala. Tim kami juga memantau performa iklan secara real-time dan memberikan laporan harian, mingguan, atau bulanan yang dilengkapi dengan strategi rekomendasi. Termasuk juga konsultasi rutin dan manajemen retargeting untuk menjangkau audiens potensial dengan lebih efektif.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/4.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744088909/pasticuan/additional-selling/paket-revisi/4.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketCustom = [
+  {
+    title: "PAKET CUSTOM CONSULTING DAN AUDIT SISTEM",
+    desc: "Audit sistem digital perusahaan dan konsultasi teknologi yang disesuaikan dengan kebutuhan.",
+    desc_modal:
+      "Audit menyeluruh terhadap efisiensi, keamanan, dan performa sistem. Termasuk konsultasi pengembangan custom software, rekomendasi teknologi relevan, roadmap teknologi, strategi digital perusahaan, serta analisis mendalam dan proposal solusi jangka panjang.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM ENTERPRISE SOLUTION",
+    desc: "Solusi enterprise berbasis cloud dan AI untuk transformasi digital dan automasi bisnis tingkat lanjut.",
+    desc_modal:
+      "Pengembangan solusi enterprise berbasis cloud, big data, AI, IoT, chatbot pintar, business intelligence, serta web/app manajemen data. Dukungan penuh selama 12 bulan untuk memastikan sistem scalable, aman, dan berbasis data.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM HAKI",
+    desc: "Layanan konsultasi dan pengurusan HAKI sesuai kebutuhan spesifik produk atau karya.",
+    desc_modal:
+      "Layanan konsultasi, pendaftaran merek dagang, paten, hak cipta, desain industri, pengajuan internasional (Madrid Protocol/PCT), pengurusan lisensi, litigasi sengketa, pengawasan pelanggaran, serta pembaruan dan perpanjangan masa berlaku HAKI.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/3.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/3.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM LEGALISIR",
+    desc: "Layanan legalisasi kontrak/perjanjian sesuai kebutuhan khusus dengan konsultasi mendalam.",
+    desc_modal:
+      "Konsultasi lengkap legalisasi kontrak, pengesahan notaris/Kemenkumham, penerjemahan dokumen internasional, revisi perjanjian sesuai hukum, legalisasi lisensi/franchise, legalisasi kontrak multinasional, hingga pengembalian dokumen legalisasi sesuai kebutuhan klien.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/4.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/4.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM PACKING",
+    desc: "Layanan pengemasan sesuai permintaan untuk berbagai jenis produk dengan fleksibilitas tinggi.",
+    desc_modal:
+      "Konsultasi pengemasan produk, pembuatan kemasan custom, pencetakan logo/merek, penyegelan sesuai standar pengiriman, serta layanan pengambilan dan pengiriman produk secara fleksibel menggunakan kurir pilihan klien untuk skala kecil atau besar.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/5.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/5.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM PENGURUSAN BADAN USAHA",
+    desc: "Layanan khusus untuk pendirian dan legalitas badan usaha dengan kebutuhan yang tidak umum.",
+    desc_modal:
+      "Konsultasi pendirian badan usaha khusus, penyusunan akta notaris kompleks, pengurusan izin usaha standar global, izin kerja ekspatriat, perjanjian kerjasama internasional, hingga lisensi usaha untuk mendukung ekspansi global perusahaan.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/6.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089581/pasticuan/additional-selling/paket-custom/6.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM SERTIFIKASI & PERIZINAN",
+    desc: "Pendampingan lengkap untuk sertifikasi dan perizinan produk sesuai kebutuhan pasar lokal dan internasional.",
+    desc_modal:
+      "Pendaftaran sertifikasi SNI, BPOM, HAKI, HALAL, ISO, audit ISO, konsultasi sertifikasi internasional, pengurusan paten, serta pendampingan penyusunan dokumen legal sesuai standar global dengan analisis mendalam dan koordinasi lembaga terkait.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089632/pasticuan/additional-selling/paket-custom/7.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089632/pasticuan/additional-selling/paket-custom/7.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET CUSTOM STORAGE",
+    desc: "Layanan penyimpanan barang skala besar dan khusus dengan sistem pemantauan dan manajemen stok real-time.",
+    desc_modal:
+      "Layanan penyewaan gudang khusus dengan kontrol suhu dan kelembapan, pemantauan CCTV, inventaris real-time, manajemen stok, rak custom, serta pengiriman barang lokal hingga internasional sesuai kebutuhan bisnis klien.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089632/pasticuan/additional-selling/paket-custom/8.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744089632/pasticuan/additional-selling/paket-custom/8.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketKonsultasiPajak = [
+  {
+    title: "PAKET KONSULTASI PAJAK & PENGURUSAN SENGKETA PAJAK",
+    desc: "Layanan pendampingan sengketa pajak, negosiasi otoritas pajak, audit pajak, hingga penyelesaian hukum secara profesional.",
+    desc_modal:
+      "Pendampingan penyelesaian sengketa pajak, persiapan dokumen, negosiasi dengan otoritas pajak, penyelesaian keberatan pembayaran pajak, pendampingan ahli audit pajak, serta penyusunan dokumen hukum untuk proses banding dan resolusi sengketa secara profesional melalui negosiasi.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET KONSULTASI PAJAK LENGKAP (ENTERPRISE)",
+    desc: "Layanan konsultasi pajak enterprise lengkap, mencakup perencanaan, pelatihan internal, sistem otomatis, hingga konsultasi insentif.",
+    desc_modal:
+      "Layanan konsultasi pajak lengkap enterprise, termasuk paket pro, konsultasi kustom, pelatihan internal tim finance, pengelolaan pembayaran otomatis, perencanaan pajak internasional, sistem pelaporan efisien, hingga konsultasi insentif pajak khusus untuk sektor tertentu sesuai kebutuhan perusahaan.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET KONSULTASI PAJAK UNTUK UMKM",
+    desc: "Konsultasi kewajiban perpajakan, pelaporan SPT, insentif pajak UMKM, dan pendampingan administrasi perpajakan untuk pelaku UMKM.",
+    desc_modal:
+      "Layanan konsultasi kewajiban pajak UMKM, panduan perpajakan terbaru, pelaporan SPT tahunan dan masa untuk UMKM dengan omset terbatas, penyuluhan insentif PPh final 0,5%, serta pendampingan pengajuan NIK dan NPWP bagi pelaku UMKM.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/3.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-konsultasi-pajak/3.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketCompro = [
+  {
+    title: "PAKET PEMBUATAN COMPRO CETAK PDF",
+    desc: "Pembuatan Compro cetak PDF dari materi klien, mencakup konsep, desain, layout, hingga penyempurnaan gambar.",
+    desc_modal:
+      "Jasa lengkap pembuatan Company Profile (Compro) cetak PDF termasuk pembuatan konsep, desain, layout, penginputan foto, penyempurnaan gambar sebelum masuk Compro, serta pembuatan icon khusus. Maksimal 3 kali revisi, biaya tambahan berlaku untuk revisi lebih lanjut.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET PEMBUATAN COMPRO CETAK PDF (PLUS VIDEO & PHOTOSHOOT)",
+    desc: "Paket lengkap pembuatan Compro cetak PDF dari materi klien, termasuk konsep, desain, layout, foto, video, hingga icon.",
+    desc_modal:
+      "Layanan lengkap pembuatan Company Profile (Compro) cetak PDF mencakup konsep, desain, layout, penginputan foto, penyempurnaan gambar, pembuatan icon khusus, serta layanan tambahan videoshoot dan photoshoot. Maksimal 3 kali revisi dengan biaya tambahan setelahnya.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET PEMBUATAN VIDEO COMPRO",
+    desc: "Jasa pembuatan video Company Profile profesional lengkap dengan konsep, shooting, desain video, dan revisi editing.",
+    desc_modal:
+      "Layanan video compro mencakup photoshoot & video shoot dengan tools profesional, konsep video, desain video dan grafis, serta briefing pra shooting. Termasuk revisi 1x untuk shooting dan 3x revisi editing untuk hasil terbaik dan sesuai kebutuhan brand.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/3.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744090738/pasticuan/additional-selling/paket-compro/3.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketBussiness = [
+  {
+    title: "PAKET BUSSINESS (BASIC)",
+    desc: "Pengelolaan marketplace dengan optimasi produk, pemantauan stok, ulasan pelanggan, promo, hingga laporan penjualan bulanan.",
+    desc_modal:
+      "Layanan mencakup pengelolaan 1 marketplace (Tokopedia/Shopee), optimasi 10 produk (judul, deskripsi, foto), pengelolaan harga dan stok, tanggapan ulasan pelanggan, pembuatan promo dasar, laporan penjualan bulanan, serta upload hingga 100 produk (lebih dari itu dikenakan biaya tambahan).",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091436/pasticuan/additional-selling/paket-bussiness/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091436/pasticuan/additional-selling/paket-bussiness/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET BUSSINESS - SOSIAL MEDIA MANAGEMENT",
+    desc: "Pengelolaan media sosial Instagram & Facebook lengkap dengan desain, posting rutin, analisis performa, dan interaksi pengikut.",
+    desc_modal:
+      "Layanan mencakup 10 postingan per bulan untuk Instagram & Facebook, desain grafis sederhana tiap posting, analisis performa akun bulanan, interaksi dasar dengan pengikut, serta pembuatan kalender konten satu bulan penuh.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091436/pasticuan/additional-selling/paket-bussiness/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091436/pasticuan/additional-selling/paket-bussiness/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketExpert = [
+  {
+    title: "PAKET EXPERT",
+    desc: "Paket social media premium dengan 30 postingan/bulan, iklan berbayar, video kreatif, influencer, dan bonus photoshoot 4x.",
+    desc_modal:
+      "Layanan mencakup 30 postingan/bulan di 4+ platform (Instagram, Facebook, LinkedIn, Twitter), desain grafis premium & video storytelling, kampanye iklan sesuai target, pengelolaan komunitas, laporan harian & strategi, konsultasi mingguan, influencer marketing, serta bonus photoshoot & videoshoot 4x.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091700/pasticuan/additional-selling/paket-expert/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091700/pasticuan/additional-selling/paket-expert/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET EXPERT (PRO)",
+    desc: "Paket lengkap pengelolaan marketplace tingkat lanjut dengan strategi dinamis, promo besar, dan upload produk tanpa batas.",
+    desc_modal:
+      "Layanan meliputi pengelolaan 3+ marketplace (Tokopedia, Shopee, Bukalapak), optimasi 50+ produk (judul, deskripsi, SEO, video), strategi harga & stok otomatis, promo besar (flash sale, bundling), layanan pelanggan aktif, laporan performa, pengelolaan brand store, konsultasi bulanan, dan upload produk unlimited.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091700/pasticuan/additional-selling/paket-expert/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744091700/pasticuan/additional-selling/paket-expert/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
+
+export const paketEnterprise = [
+  {
+    title: "PAKET ENTERPRISE",
+    desc: "Paket social media profesional untuk 3 platform dengan konten kreatif, iklan berbayar, dan laporan mingguan.",
+    desc_modal:
+      "Layanan mencakup 20 postingan per bulan di 3 platform (Instagram, Facebook, LinkedIn), desain grafis kreatif dan video pendek, strategi konten dan pengelolaan iklan berbayar, analisis dan laporan mingguan, interaksi aktif (komentar, DM, story), serta konsultasi bulanan strategi.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744108621/pasticuan/additional-selling/paket-enterprise/1.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744108621/pasticuan/additional-selling/paket-enterprise/1.webp",
+    cta: "LIHAT DETAIL",
+  },
+  {
+    title: "PAKET ENTERPRISE (ADVANCED)",
+    desc: "Pengelolaan marketplace profesional untuk 2 platform, optimasi produk, layanan pelanggan, dan integrasi sistem inventaris.",
+    desc_modal:
+      "Layanan mencakup pengelolaan 2 marketplace (Tokopedia & Shopee), optimasi 25 produk (judul, deskripsi, SEO), strategi harga & stok, pembuatan promo (diskon, voucher, bundling), tanggapan ulasan, layanan chat & customer service, laporan mingguan, integrasi inventaris, dan upload produk unlimited.",
+    image:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744108621/pasticuan/additional-selling/paket-enterprise/2.webp",
+    img_modal:
+      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744108621/pasticuan/additional-selling/paket-enterprise/2.webp",
+    cta: "LIHAT DETAIL",
+  },
+];
