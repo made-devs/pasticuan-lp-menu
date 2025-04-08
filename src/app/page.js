@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import HeroHeader from '@/components/HeroHeader';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import SectionHeader from '@/components/SectionHeader';
-import SliderImport from '@/components/Home/SliderImport';
-import SliderExport from '@/components/Home/SliderExport';
-import SliderMember from '@/components/Home/SliderMember';
-import ImageCarousel from '../components/Promo/ImageCarousel';
+import { useState } from "react";
+import Image from "next/image";
+import HeroHeader from "@/components/HeroHeader";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import SectionHeader from "@/components/SectionHeader";
+import SliderImport from "@/components/Home/SliderImport";
+import SliderExport from "@/components/Home/SliderExport";
+import SliderMember from "@/components/Home/SliderMember";
+import ImageCarousel from "../components/Promo/ImageCarousel";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,13 +36,6 @@ export default function Home() {
               </span>
             </button>
           </div>
-
-          <ImageCarousel
-            title="REWARD MEMBER"
-            href="/reward-member"
-            category="rewardMember"
-            dataSource={promoData}
-          />
 
           <SectionHeader title="PAKET IMPORTIR" href="/paket-importir" />
           <div className="px-4 pt-2 rounded">

@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Pagination } from 'swiper/modules';
-import Image from 'next/image';
-import Link from 'next/link';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Pagination } from "swiper/modules";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function ImageCarousel({ title, category, href, dataSource }) {
   const images = dataSource?.[category] || [];
@@ -35,7 +35,7 @@ export default function ImageCarousel({ title, category, href, dataSource }) {
             <div className="p-4 rounded text-center">
               <Image
                 src={src}
-                alt={`${title || 'Promo'} ${index + 1}`}
+                alt={`${title || "Promo"} ${index + 1}`}
                 width={300}
                 height={300}
                 className="rounded drop-shadow-[0_0_10px_rgba(255,255,255,0.7)]"
@@ -45,7 +45,7 @@ export default function ImageCarousel({ title, category, href, dataSource }) {
 
           return (
             <SwiperSlide key={index} className="pb-8">
-              {href ? <Link href={href}>{content}</Link> : content}
+              {content}
             </SwiperSlide>
           );
         })}
