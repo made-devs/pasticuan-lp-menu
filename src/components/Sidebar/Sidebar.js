@@ -28,10 +28,12 @@ const menuItems = [
   },
   {
     title: "COMPANY PROFILE",
-    children: ["PASTICUAN", "PASTIKILAT", "MEMBER", "EKSPOR", "KOMODITAS"],
+    link: "/company-profile",
+    children: ["PASTI CUAN", "PASTI KILAT", "MEMBER", "EKSPOR", "KOMODITAS"],
   },
   {
     title: "INVESTMENT",
+    link: "/investment",
     children: ["HOW?", "INVESTMENT PLANS"],
   },
   {
@@ -68,8 +70,12 @@ export default function Sidebar({ isOpen, onClose }) {
     const childSlug = childTitle.toLowerCase().replace(/\s+/g, "-");
 
     // Khusus PROMO dan punya anak, kita nested
-    if (parentSlug === "promo") {
-      return `/promo/${childSlug}`;
+    if (
+      parentSlug === "promo" ||
+      parentSlug == "company-profile" ||
+      parentSlug == "investment"
+    ) {
+      return `/${parentSlug}/${childSlug}`;
     }
 
     // Selain promo, tetap biasa aja
