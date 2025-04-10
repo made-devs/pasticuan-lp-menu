@@ -38,9 +38,9 @@ export default function SliderMember() {
                   setSelectedPackage(pkg);
                   setShowModal(true);
                 }}
-                className="mt-2 bg-orange-500 text-white px-4 py-1 font-bold rounded-full text-sm"
+                className="mt-2 bg-orange-500 text-white px-4 py-1 font-bold rounded-full text-sm cursor-pointer"
               >
-                Lihat Paket
+                LIHAT PAKET
               </button>
             </div>
           </SwiperSlide>

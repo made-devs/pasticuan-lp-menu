@@ -52,7 +52,7 @@ export default function ProductModal({ product, onClose }) {
           </div>
           <button
             onClick={() => alert("ORDER NOW!")}
-            className="w-full bg-orange-500 text-white font-bold py-3 rounded-full shadow-md hover:bg-orange-600 transition"
+            className="w-full bg-orange-500 text-white font-bold py-3 rounded-full shadow-md hover:bg-orange-600 transition cursor-pointer"
           >
             ORDER NOW
           </button>

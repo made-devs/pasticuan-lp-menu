@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import HeroHeader from "@/components/HeroHeader";
-import { pastiKilatCompro } from "@/data/companyProfile";
+import { pastiCuanCompro } from "@/data/companyProfile";
 import ImageCarouselXL from "@/components/ImageCarouselXL";
 
 export default function companyProfilePage() {
@@ -34,7 +34,7 @@ export default function companyProfilePage() {
             </button>
           </div>
 
-          <ImageCarouselXL category="data" dataSource={pastiKilatCompro} />
+          <ImageCarouselXL category="data" dataSource={pastiCuanCompro} />
         </div>
       </section>
     </div>
