@@ -4,8 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import HeroHeader from "@/components/HeroHeader";
-import { memberCompro } from "@/data/companyProfile";
-import ImageCarouselXL from "@/components/ImageCarouselXL";
+import ImageCarousel from "@/components/Promo/ImageCarousel";
+import { investmentData } from "@/data/investment";
 
 export default function companyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,15 +26,32 @@ export default function companyProfilePage() {
         </div>
 
         <div className="relative z-10 pt-2">
-          <div className="flex justify-center py-7">
+          <div className="flex justify-center py-4">
             <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
               <span className="text-3xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                MEMBER
+                INVESTMENT
               </span>
             </button>
           </div>
 
-          <ImageCarouselXL category="data" dataSource={memberCompro} />
+          <ImageCarousel
+            title="PAKET INVESTASI CUAN"
+            href="/investment/paket-investasi-cuan"
+            category="paketInvestasiCuan"
+            dataSource={investmentData}
+          />
+          <ImageCarousel
+            title="PROMO INVESTASI CUAN"
+            href="/investment/promo-investasi-cuan"
+            category="promoInvestasiCuan"
+            dataSource={investmentData}
+          />
+          <ImageCarousel
+            title="SIMULASI PROFIT & LOSS"
+            href="/investment/simulasi-profit-loss"
+            category="simulasiProfitLoss"
+            dataSource={investmentData}
+          />
         </div>
       </section>
     </div>

@@ -34,7 +34,7 @@ const menuItems = [
   {
     title: "INVESTMENT",
     link: "/investment",
-    children: ["HOW?", "INVESTMENT PLANS"],
+    children: ["HOW?", "INVESTMENT PLAN"],
   },
   {
     title: "CONTACT US",

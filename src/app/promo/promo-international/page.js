@@ -34,12 +34,12 @@ export default function PaketBussinessPage() {
           <button className="text-white cursor-pointer text-xl">{`←`}</button>
         </Link>
         <div className="relative w-[80%]">
-          <input
+          {/* <input
             type="text"
             placeholder="Search from here"
             className="w-full rounded-full px-4 py-2 text-sm text-black placeholder:text-gray-400"
           />
-          <div className="absolute right-2 top-1/2 -translate-y-1/2">🔍</div>
+          <div className="absolute right-2 top-1/2 -translate-y-1/2">🔍</div> */}
         </div>
         <button
           className="text-white cursor-pointer text-xl"
