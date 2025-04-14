@@ -7,7 +7,7 @@ import HeroHeader from "@/components/HeroHeader";
 import { pastiKilatCompro } from "@/data/companyProfile";
 import ImageCarouselXL from "@/components/ImageCarouselXL";
 
-export default function companyProfilePage() {
+export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

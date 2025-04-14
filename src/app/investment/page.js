@@ -7,7 +7,7 @@ import HeroHeader from "@/components/HeroHeader";
 import ImageCarousel from "@/components/Promo/ImageCarousel";
 import { investmentData } from "@/data/investment";
 
-export default function companyProfilePage() {
+export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
