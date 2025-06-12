@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ProductList({ products, onSelect }) {
   return (
-    <div className="space-y-6 relative z-10">
+    <div className="py-8 relative z-10">
       {products.map((item, idx) => (
         <div
           key={idx}
@@ -18,10 +18,10 @@ export default function ProductList({ products, onSelect }) {
             />
           </div>
           <div className="flex-1 space-y-1">
-            <h2 className="font-bold text-sm">{item.title}</h2>
+            <h2 className="font-bold text-[12px]">{item.title}</h2>
             <p className="text-xs text-white/80 leading-tight">{item.desc}</p>
             <div className="flex justify-between items-center mt-2">
-              <span className="font-bold">{item.price}</span>
+              <span className="font-bold text-sm">{item.price}</span>
               <button
                 onClick={() => onSelect(item)}
                 className="text-xs bg-orange-500 text-white font-semibold px-3 py-1 rounded-full shadow hover:bg-orange-600 cursor-pointer"

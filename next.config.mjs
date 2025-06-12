@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
         pathname: "/**", // semua path diizinkan
       },
+      {
+        protocol: "http",
+        hostname: "pasticuan.co.id",
+        pathname: "/**", // semua path diizinkan
+      },
     ],
   },
 };

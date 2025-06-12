@@ -1,6 +1,38 @@
 // src/data/promoData.js
 
 export const promoData = {
+  promoInvestment: [
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/0-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/1-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/2-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/3-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/4-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/5-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/6-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/7-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/8-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/9-copy.webp",
+  ],
+  promoCuanJuni: [
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/COVER-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/DISCOUNT-ONGKR-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/DISCOUNT-SEMINAR-MEMBER-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-DASHBOAR-HRM-SYSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-ACOUNTING-SYSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-CRM-SYSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-PROJECT-SSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-USER-MANAGER-SYSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-PRODUCT-SYSTEM-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/FREE-ONGKIR-PRODUK-DAERAH-JABODETABEK-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/DISCOUNT-PENDAFTARAN-MEMBER-copy.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/DISCOUNT-PAKET-INVESTASI-BISNIS-copy.webp",
+  ],
+  supportBisnis: [
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/1.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/2.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/3.webp",
+    "http://pasticuan.co.id/wp-content/uploads/2025/06/4.webp",
+  ],
   rewardMember: [
     "https://res.cloudinary.com/df7lzicrz/image/upload/v1743756893/pasticuan/selling-member-1.webp",
     "https://res.cloudinary.com/df7lzicrz/image/upload/v1743756892/pasticuan/selling-member-2.webp",

@@ -41,45 +41,27 @@ export default function PromoPage() {
           </div>
 
           <ImageCarousel
-            title="REWARD MEMBER"
-            href="/promo/reward-member"
+            title="CUAN GILA-GILAAN JUNI"
+            href="/promo/cuan-gila-gilaan-juni"
+            category="promoCuanJuni"
+            dataSource={promoData}
+          />
+          <ImageCarousel
+            title="22 SUPPORT BISNIS GRATIS SENILAI 50 JT RUPIAH"
+            href="/promo/cuan-gila-gilaan-juni"
+            category="supportBisnis"
+            dataSource={promoData}
+          />
+          <ImageCarousel
+            title="PROMO INVESTMENT"
+            href="/promo/investment"
             category="rewardMember"
             dataSource={promoData}
           />
           <ImageCarousel
-            title="EKSPOR"
-            href="/promo/promo-ekspor"
-            category="ekspor"
-            dataSource={promoData}
-          />
-          <ImageCarousel
-            title="IMPOR"
-            href="/promo/promo-impor"
-            category="impor"
-            dataSource={promoData}
-          />
-          <ImageCarousel
-            title="INTERNATIONAL"
-            href="/promo/promo-international"
-            category="international"
-            dataSource={promoData}
-          />
-          <ImageCarousel
-            title="PASTI KILAT"
-            href="/promo/promo-pasti-kilat"
-            category="pastiKilat"
-            dataSource={promoData}
-          />
-          <ImageCarousel
-            title="ADDITIONAL SELLING"
-            href="/promo/promo-additional-selling"
-            category="additionalSelling"
-            dataSource={promoData}
-          />
-          <ImageCarousel
-            title="INTERNATIONAL MANDARIN"
-            href="/promo/promo-international-mandarin"
-            category="internationalMandarin"
+            title="REWARD MEMBER"
+            href="/promo/reward-member"
+            category="rewardMember"
             dataSource={promoData}
           />
         </div>

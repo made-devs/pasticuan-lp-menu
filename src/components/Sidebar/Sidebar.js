@@ -11,12 +11,18 @@ const menuItems = [
   {
     title: "ALL MENU",
     link: "/",
-    children: ["PAKET IMPORTIR", "PAKET EKSPOR", "PAKET MEMBER"],
+    children: [
+      "PAKET IMPORTIR",
+      "PAKET EKSPOR",
+      "PAKET MEMBER",
+      "PAKET INVESTASI BISNIS",
+    ],
   },
   {
     title: "PROMO",
     link: "/promo",
     children: [
+      "PROMO CUAN GILA-GILAAN JUNI",
       "REWARD MEMBER",
       "PROMO EKSPOR",
       "PROMO IMPOR",
