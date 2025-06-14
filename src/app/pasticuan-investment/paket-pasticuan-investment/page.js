@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import Sidebar from "@/components/Sidebar/Sidebar";
-import ProductList from "@/components/ProductList";
-import ProductModal from "@/components/ProductModal";
-import { paketInvestasiCuanData } from "@/data/investment";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import Sidebar from '@/components/Sidebar/Sidebar';
+import ProductList from '@/components/ProductList';
+import ProductModal from '@/components/ProductModal';
+import { paketPasticuanInvestment } from '@/data/investment';
 
-export default function PaketImportirPage() {
+export default function PaketEksporPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,7 @@ export default function PaketImportirPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
+          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"
@@ -53,14 +53,14 @@ export default function PaketImportirPage() {
       <div className="flex justify-center mb-6 relative z-10">
         <div className="bg-orange-500 px-6 py-2 rounded-full shadow-md">
           <h1 className="text-xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,0.7)]">
-            PAKET INVESTASI CUAN
+            PAKET PASTICUAN INVESTMENT
           </h1>
         </div>
       </div>
 
       {/* Product List */}
       <ProductList
-        products={paketInvestasiCuanData}
+        products={paketPasticuanInvestment}
         onSelect={setSelectedProduct}
       />
 

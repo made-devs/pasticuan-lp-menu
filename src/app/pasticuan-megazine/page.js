@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
-import Sidebar from "@/components/Sidebar/Sidebar";
-import HeroHeader from "@/components/HeroHeader";
-import ImageCarousel from "@/components/Promo/ImageCarousel";
-import { comproData } from "@/data/companyProfile";
+import { useState } from 'react';
+import Image from 'next/image';
+import Sidebar from '@/components/Sidebar/Sidebar';
+import HeroHeader from '@/components/HeroHeader';
+import ImageCarousel from '@/components/Promo/ImageCarousel';
+import { comproData } from '@/data/companyProfile';
 
 export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,40 +28,34 @@ export default function CompanyProfilePage() {
         <div className="relative z-10 pt-2">
           <div className="flex justify-center py-4">
             <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
-              <span className="text-3xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                COMPANY PROFILE
+              <span className="text-2xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
+                PASTICUAN MEGAZINE
               </span>
             </button>
           </div>
 
           <ImageCarousel
             title="PASTI CUAN"
-            href="/company-profile/pasti-cuan"
+            href="/pasticuan-megazine/pasticuan"
             category="pastiCuan"
             dataSource={comproData}
           />
           <ImageCarousel
-            title="PASTI KILAT"
-            href="/company-profile/pasti-kilat"
-            category="pastiKilat"
-            dataSource={comproData}
-          />
-          <ImageCarousel
             title="MEMBER"
-            href="/company-profile/member"
+            href="/pasticuan-megazine/member"
             category="member"
             dataSource={comproData}
           />
           <ImageCarousel
-            title="EKSPOR"
-            href="/company-profile/ekspor"
-            category="ekspor"
+            title="PASTI KILAT"
+            href="/pasticuan-megazine/pastikilat"
+            category="pastiKilat"
             dataSource={comproData}
           />
           <ImageCarousel
-            title="KOMODITAS"
-            href="/company-profile/komoditas"
-            category="komoditas"
+            title="PRICELIST PASTICUAN"
+            href="/pasticuan-megazine/pricelist-pasticuan"
+            category="pricelist"
             dataSource={comproData}
           />
         </div>

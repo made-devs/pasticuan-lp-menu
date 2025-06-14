@@ -1,20 +1,14 @@
-// src/app/promo/page.js
-
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import HeroHeader from '@/components/HeroHeader';
-import { promoData } from '../../data/promoData';
 import ImageCarousel from '@/components/Promo/ImageCarousel';
+import { investmentData } from '@/data/investment';
 
-export default function PromoPage() {
+export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    console.log('Total height:', document.documentElement.scrollHeight);
-  }, []);
 
   return (
     <div className="w-full font-montserrat max-w-[430px] mx-auto bg-[#0a3b50] text-white relative overflow-hidden">
@@ -34,41 +28,41 @@ export default function PromoPage() {
         <div className="relative z-10 pt-2">
           <div className="flex justify-center py-4">
             <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
-              <span className="text-5xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                PROMO
+              <span className="text-2xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
+                PASTICUAN INVESTMENT
               </span>
             </button>
           </div>
 
           <ImageCarousel
-            title="CUAN GILA-GILAAN JUNI"
-            href="/promo/promo-cuan-gila-gilaan-juni"
-            category="promoCuanJuni"
-            dataSource={promoData}
+            title="PAKET INVESTASI BISNIS"
+            href="/pasticuan-investment/paket-investasi-bisnis"
+            category="paketInvestasiBisnis"
+            dataSource={investmentData}
           />
           <ImageCarousel
-            title="22 SUPPORT BISNIS GRATIS SENILAI 50 JT RUPIAH"
-            href="/promo/support-bisnis"
-            category="supportBisnis"
-            dataSource={promoData}
+            title="PASTIMURAH WAREHOUSE"
+            href="/pasticuan-investment/pastimurah-warehouse"
+            category="pastimurahWarehouse"
+            dataSource={investmentData}
           />
           <ImageCarousel
-            title="PROMO INVESTMENT"
-            href="/promo/investment"
-            category="promoInvestment"
-            dataSource={promoData}
+            title="PASTIMURAH RUKO"
+            href="/pasticuan-investment/pastimurah-ruko"
+            category="pastimurahRuko"
+            dataSource={investmentData}
           />
           <ImageCarousel
-            title="REWARD MEMBER"
-            href="/promo/reward-member"
-            category="rewardMember"
-            dataSource={promoData}
+            title="PAKET PASTICUAN INVESTMENT"
+            href="/pasticuan-investment/paket-pasticuan-investment"
+            category="paketPasticuanInvestment"
+            dataSource={investmentData}
           />
           <ImageCarousel
-            title="PROMO EKSPOR"
-            href="/promo/promo-ekspor"
-            category="ekspor"
-            dataSource={promoData}
+            title="PROMO PASTICUAN INVESTMENT"
+            href="/pasticuan-investment/promo-pasticuan-investment"
+            category="promoPasticuanInvestment"
+            dataSource={investmentData}
           />
         </div>
       </section>

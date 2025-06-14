@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
-import Sidebar from "@/components/Sidebar/Sidebar";
-import HeroHeader from "@/components/HeroHeader";
-import { eksporCompro } from "@/data/companyProfile";
-import ImageCarouselXL from "@/components/ImageCarouselXL";
+import { useState } from 'react';
+import Image from 'next/image';
+import Sidebar from '@/components/Sidebar/Sidebar';
+import HeroHeader from '@/components/HeroHeader';
+import { pastimurahWarehouseData } from '@/data/investment';
+import ImageCarouselXL from '@/components/ImageCarouselXL';
 
 export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,13 +28,16 @@ export default function CompanyProfilePage() {
         <div className="relative z-10 pt-2">
           <div className="flex justify-center py-7">
             <button className="bg-orange-500 text-white text-xl font-bold px-8 py-2 rounded-3xl shadow-lg">
-              <span className="text-3xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
-                EKSPOR
+              <span className="text-2xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,1)]">
+                PASTIMURAH WAREHOUSE
               </span>
             </button>
           </div>
 
-          <ImageCarouselXL category="data" dataSource={eksporCompro} />
+          <ImageCarouselXL
+            category="data"
+            dataSource={pastimurahWarehouseData}
+          />
         </div>
       </section>
     </div>
