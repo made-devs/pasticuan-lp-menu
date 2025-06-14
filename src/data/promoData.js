@@ -68,6 +68,8 @@ export const promoData = {
   ],
 };
 
+export const promoCuanJuniData = [];
+
 export const promoEksporData = [
   {
     title: "FREE KONSULTASI BISNIS DAN STRATEGI INTERNASIONAL",

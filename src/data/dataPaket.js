@@ -122,74 +122,74 @@ export const memberPackages = [
 export const allImportirPackages = [
   {
     title: "JASA IMPORT BASIC",
-    desc: "Minimum modal import ± 5 Juta. Solusi praktis dan ekonomis untuk kamu yang baru mau mulai bisnis impor.",
+    desc: "Minimum modal import ± 5 Juta dengan biaya jasa 5% dari jumlah transaksi. Solusi praktis dan ekonomis untuk kamu yang baru mau mulai bisnis impor.",
     desc_modal:
-      "Mulai perjalanan bisnis impor Anda dengan mudah melalui Paket Importir Pemula. Dirancang khusus untuk para pemula, paket ini memberikan solusi lengkap dan efisien agar Anda dapat memulai bisnis impor tanpa kebingungan",
+      "Solusi lengkap & efisien untuk memulai bisnis impor modal minimal 5 Juta. Layanan meliputi pencarian produk, negosiasi harga & MOQ eksklusif, QC, logistik door-to-door (laut/udara), pengurusan dokumen & perizinan (SNI, BPOM), fasilitas komplain, hingga support badan hukum (PT/CV). Termasuk 22 promo support bisnis gratis senilai total 50 Juta Rupiah.",
     price: "± Rp 5.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743998918/pasticuan/paket-importir/1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-BASIC-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753391/pasticuan/modal-importir-pemula.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-BASIC-copy.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "JASA IMPORT KOMPLIT",
-    desc: "Minimum modal import ± 150 Juta. Ideal buat pelaku UMKM yang ingin ekspansi ke bisnis impor dengan modal menengah.",
+    desc: "Minimum modal import ± 50 Juta dengan biaya jasa 5% dari jumlah transaksi. Ideal untuk pelaku UMKM yang ingin ekspansi ke bisnis impor.",
     desc_modal:
-      "Solusi khusus untuk membantu UMKM mengakses produk impor dengan biaya efisien. Fokus pada pengembangan bisnis Anda, kami bantu logistiknya.",
+      "Paket lengkap ekspansi bisnis impor dengan modal minimal 50 Juta Rupiah. Meliputi negosiasi harga, pencarian produk, dukungan operasional & legal (termasuk perizinan SNI, BPOM, PT/CV), QC, logistik door-to-door, fasilitas komplain, plus 22 support bisnis gratis senilai 50 Juta dan akses ratusan price list produk",
     price: "± Rp 50.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743998918/pasticuan/paket-importir/2.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-KOMPLIT-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753482/pasticuan/modal-importir-umkm.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-KOMPLIT-copy.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "JASA IMPORT SUPER KOMPLIT",
-    desc: "Minimum modal import ± 350 Juta. Solusi tepat bagi pelaku usaha yang ingin masuk ke dunia impor dalam skala menengah dengan dukungan lengkap.",
+    desc: "Minimum modal import ± 150 Juta. Solusi tepat bagi pelaku usaha yang ingin masuk ke dunia impor dalam skala menengah dengan dukungan lengkap.",
     desc_modal:
-      "Solusi ideal bagi grosir. Paket ini memberikan kemudahan akses produk impor dalam jumlah besar dengan harga kompetitif.",
+      "Solusi ideal grosir & usaha menengah untuk impor skala besar (modal min 150 Juta). Layanan end-to-end meliputi negosiasi harga & pencarian produk, dukungan manajerial, operasional, dan legal (termasuk perizinan SNI/BPOM & PT/CV), QC, logistik door-to-door, serta fasilitas komplain supplier. Plus, dapatkan reminder re-stock, konsep jaringan reseller gratis, 22 support bisnis gratis senilai 50 Juta, dan akses ratusan price list produk.",
     price: "± Rp 150.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743998918/pasticuan/paket-importir/3.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-SUPER-KOMPLIT-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753483/pasticuan/modal-importir-wholesaler.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-SUPER-KOMPLIT-copy.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "JASA IMPORT PRIORITAS",
-    desc: "Minimum modal import ± 600 Juta dengan layanan terlengkap dan support hingga puluhan ribu produk.",
+    desc: "Minimum modal import ± 500 Juta dengan layanan terlengkap dan support hingga puluhan ribu produk.",
     desc_modal:
-      "Percepat distribusi dengan mengimpor produk berkualitas dalam jumlah besar dan distribusikan dengan mudah.",
-    price: "± Rp 600.000.000,-",
+      " Solusi premium impor skala besar (modal min 500 Juta, biaya jasa 5%). Layanan end-to-end: negosiasi & pencarian produk, konsultasi merk, konsep jaringan supplier, MOU hak eksklusif distribusi, dukungan manajerial, operasional, legal (dokumen, SNI/BPOM, PT/CV), QC, logistik door-to-door, komplain. Bonus: ratusan price list & 22 support bisnis gratis senilai 50 Juta Rupiah.",
+    price: "± Rp 500.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1744008322/pasticuan/paket-importir/4.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-PRIORITAS-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753486/pasticuan/modal-importir-distributor.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-PRIORITAS-copy.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "JASA IMPORT ALL IN ONE",
     desc: "Minimum modal import ± 1 Milyar dengan layanan pendampingan visit China dan support legal menyeluruh.",
     desc_modal:
-      "Solusi terbaik untuk Anda yang ingin bekerja langsung dengan produsen internasional. Paket ini dirancang untuk mempermudah akses Anda ke produk-produk unggulan dari berbagai negara.",
+      "Solusi premium impor skala besar (modal min 1 Milyar) untuk kerja langsung dengan produsen global. Mencakup konsultasi bisnis & hukum menyeluruh, pengembangan brand, sourcing langsung (visit China, kontrak eksklusif), legalitas lengkap (izin, PT/CV, lawyer fee), QC, logistik door-to-door, dan komplain. Bonus: reminder re-stock, ratusan price list, serta 22 support bisnis gratis senilai 50 Juta Rupiah.",
     price: "± Rp 1.000.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743998918/pasticuan/paket-importir/6.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-ALL-IN-ONE-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753490/pasticuan/modal-importir-principal.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-ALL-IN-ONE-copy-1.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "JASA IMPORT FRANCHISOR ALL IN ONE",
     desc: "Minimum modal import ± 1 Milyar. Solusi paling cocok untuk bangun brand dan sistem franchise dari 0 hingga selesai.",
     desc_modal:
-      "Paket lengkap untuk franchisor yang ingin mengimpor bahan baku dari produsen internasional tanpa ribet.",
+      "Bangun sistem franchise dari nol (modal min 1 Milyar, biaya jasa 5% transaksi + 15% profit franchise). Meliputi impor end-to-end; dukungan franchise komprehensif (sistem, pelatihan, kontrak, HAKI, branding, penjualan, perizinan); konsultasi bisnis, produk & hukum; serta pendampingan visit China. Bonus 22 support bisnis gratis senilai 50 Juta Rupiah.",
     price: "± Rp 1.000.000.000,-",
     image:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743998918/pasticuan/paket-importir/5.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-JASA-IMPORT-FRANCHISOR-ALL-IN-ONE-copy-scaled.webp",
     img_modal:
-      "https://res.cloudinary.com/df7lzicrz/image/upload/v1743753483/pasticuan/modal-importir-franchisor.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-JASA-IMPORT-FRANCHISOR-ALL-IN-ONE-copy.webp",
     cta: "LIHAT PAKET",
   },
 ];
@@ -212,48 +212,48 @@ export const allExportPackages = [
 export const allMemberPackages = [
   {
     title: "MEMBER BASIC",
-    desc: "Paket dasar untuk pemula yang ingin mencoba menjadi member.",
+    desc: "Jadi Pengusaha Ekspor-Impor Rp 1.5 Juta! Potensi Miliaran, Profit 3000%, Support Lengkap.",
     desc_modal:
-      "Paket MEMBER BASIC dirancang untuk Anda yang baru mulai bergabung dan ingin menikmati keuntungan dasar sebagai member.",
+      "Paket Cuan Member Basic menawarkan peluang menjadi pengusaha ekspor-impor dengan harga diskon spesial Rp 1.500.000. Member akan mendapatkan 20 support kebutuhan marketing, 50 jenis komisi, serta potensi income penjualan hingga 50 Juta/bulan dan referral hingga 86 Juta/bulan atau lebih. Nikmati profit hingga 3000% dari penjualan produk termurah, gratis pelatihan bisnis digital senilai 20 Juta, dan 22 support bisnis gratis senilai 50 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
     price: "1.5 JUTA",
     image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-BASIC-copy.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-BASIC-copy.webp",
     img_modal:
       "http://pasticuan.co.id/wp-content/uploads/2025/05/IMG_1526-copy.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "MEMBER GOLD",
-    desc: "Paket dasar untuk pemula yang ingin mencoba menjadi member.",
+    desc: "Jadi Pengusaha dengan Rp 2.5 Juta! Potensi Income Penjualan 60 Juta & Referral 107 Juta/bulan, Profit 3000%, Support Lengkap.",
     desc_modal:
-      "Paket MEMBER GOLD dirancang untuk Anda yang baru mulai bergabung dan ingin menikmati keuntungan dasar sebagai member.",
+      "Paket Cuan Member Gold, kini tersedia dengan harga diskon Rp 2.500.000 (dari harga normal Rp 15.000.000), adalah solusi optimal untuk menjadi pengusaha ekspor-impor. Member akan mendapatkan 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, serta 50 jenis komisi. Paket ini menawarkan potensi income penjualan hingga 60 Juta/bulan dan income referral hingga 107 Juta/bulan atau lebih. Anda berkesempatan menjual produk termurah dengan profit hingga 3000%, dilengkapi gratis pelatihan bisnis digital senilai 20 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
     price: "2.5 JUTA",
     image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-GOLD-copy.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-GOLD-copy.webp",
     img_modal:
       "http://pasticuan.co.id/wp-content/uploads/2025/04/IMG_6552-copy-scaled.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "MEMBER PLATINUM",
-    desc: "Paket dengan benefit lebih untuk pengguna aktif.",
+    desc: "Jadi Pengusaha Ekspor-Impor dengan Rp 5 Juta! Maksimalkan potensi income hingga 75 Juta & 128 Juta (referral) per bulan, profit 3000%, dan dukungan bisnis menyeluruh.",
     desc_modal:
-      "Paket MEMBER PLATINUM cocok untuk Anda yang mulai aktif menggunakan layanan kami. Dapatkan diskon dan dukungan ekstra.",
+      "Program Cuan Member Platinum, kini tersedia dengan diskon besar menjadi Rp 5.000.000 (dari harga normal Rp 35.000.000), merupakan jalur premium untuk menjadi pengusaha ekspor-impor. Keanggotaan ini mencakup 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, dan akses ke 50 jenis komisi. Dengan paket Platinum, Anda dapat mencapai potensi income penjualan hingga 75 Juta/bulan dan income referral melampaui 128 Juta/bulan. Manfaatkan peluang penjualan produk termurah dengan profit mencapai 3000% serta pelatihan bisnis digital gratis senilai 20 Juta Rupiah, membuka gerbang pendapatan hingga miliaran Rupiah.",
     price: "5 JUTA",
     image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-PLATINUM-copy.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-PLATINUM-copy.webp",
     img_modal:
       "http://pasticuan.co.id/wp-content/uploads/2025/04/Untitled-1.webp",
     cta: "LIHAT PAKET",
   },
   {
     title: "MEMBER DIAMOND",
-    desc: "Paket eksklusif dengan akses penuh ke semua fitur premium.",
+    desc: "Pengusaha Ekspor-Impor Dengan Rp 20 Juta! Dapatkan income tak terbatas dari jaringan, potensi penjualan 150 Juta & referral 160 Juta/bulan, profit 3000%, dengan support lengkap.",
     desc_modal:
-      "Paket MEMBER DIAMOND memberikan akses penuh ke fitur premium dan layanan prioritas, cocok untuk pengguna profesional.",
+      "Program Cuan Member Diamond, ditawarkan dengan harga spesial Rp 20.000.000 (dari harga normal Rp 135.000.000), merupakan puncak kesempatan untuk menjadi pengusaha ekspor-impor. Keanggotaan ini menyediakan 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, dan akses ke 50 jenis komisi. Uniknya, Anda berpeluang meraih potensi income tak terhingga dari jaringan kaki, ditambah potensi income penjualan mencapai 150 Juta/bulan dan income referral melampaui 160 Juta/bulan. Manfaatkan kesempatan penjualan produk termurah dengan profit hingga 3000% serta pelatihan bisnis digital gratis senilai 20 Juta Rupiah, membuka jalan menuju pendapatan miliaran Rupiah.",
     price: "20 JUTA",
     image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-DIAMOND-copy.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-DIAMOND-copy.webp",
     img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/04/7-1-1.webp",
     cta: "LIHAT PAKET",
   },

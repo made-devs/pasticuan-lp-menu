@@ -52,8 +52,8 @@ export default function PaketImportirPage() {
       {/* Judul */}
       <div className="flex justify-center mb-6 relative z-10">
         <div className="bg-orange-500 px-6 py-2 rounded-full shadow-md">
-          <h1 className="text-xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,0.7)]">
-            PROMO MANDARIN
+          <h1 className="text-xl text-center font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,0.7)]">
+            PROMO KHUSUS MEMBERSHIP CHINA
           </h1>
         </div>
       </div>

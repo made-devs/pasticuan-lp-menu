@@ -23,9 +23,9 @@ const menuItems = [
     link: "/promo",
     children: [
       "PROMO CUAN GILA-GILAAN JUNI",
-      "REWARD MEMBER",
-      "PROMO EKSPOR",
       "PROMO IMPOR",
+      "PROMO EKSPOR",
+      "REWARD MEMBER",
       "PROMO INTERNATIONAL",
       "PROMO PASTI KILAT",
       "PROMO ADDITIONAL SELLING",
@@ -33,9 +33,15 @@ const menuItems = [
     ],
   },
   {
-    title: "COMPANY PROFILE",
+    title: "PASTICUAN MEGAZINE",
     link: "/company-profile",
-    children: ["PASTI CUAN", "PASTI KILAT", "MEMBER", "EKSPOR", "KOMODITAS"],
+    children: [
+      "PASTICUAN",
+      "MEMBER",
+      "INVESTMENT",
+      "MAJALAH PRICELIST PASTICUAN",
+      "COMPRO PASTIKILAT",
+    ],
   },
   {
     title: "INVESTMENT",
