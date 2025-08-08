@@ -1,19 +1,19 @@
 // src/app/promo/page.js
 
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import HeroHeader from '@/components/HeroHeader';
-import { promoData } from '../../data/promoData';
-import ImageCarousel from '@/components/Promo/ImageCarousel';
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import HeroHeader from "@/components/HeroHeader";
+import { promoData } from "../../data/promoData";
+import ImageCarousel from "@/components/Promo/ImageCarousel";
 
 export default function PromoPage() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    console.log('Total height:', document.documentElement.scrollHeight);
+    console.log("Total height:", document.documentElement.scrollHeight);
   }, []);
 
   return (
@@ -24,7 +24,7 @@ export default function PromoPage() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
+            src="/bg-long.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"

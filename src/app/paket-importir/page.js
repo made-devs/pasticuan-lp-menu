@@ -18,7 +18,7 @@ export default function PaketImportirPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
+          src="/bg-long.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"

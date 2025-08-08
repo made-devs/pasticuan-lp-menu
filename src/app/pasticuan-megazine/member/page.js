@@ -18,7 +18,7 @@ export default function CompanyProfilePage() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
+            src="/bg-long.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"

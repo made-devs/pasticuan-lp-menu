@@ -8,6 +8,8 @@ import dynamic from "next/dynamic";
 import HeroHeader from "@/components/HeroHeader";
 import SectionHeader from "@/components/SectionHeader";
 import SliderSkeleton from "./SliderSkeleton"; // <-- PERUBAHAN: Import skeleton
+import SliderRiset from "./SliderRiset";
+import SliderAgustus from "./SliderAgustus";
 
 // --- PERUBAHAN: Semua slider sekarang di-load secara dinamis ---
 const SliderImport = dynamic(() => import("@/components/Home/SliderImport"), {
@@ -39,7 +41,7 @@ export default function HomePageClient() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096133/pasticuan/bg-long.webp"
+            src="/bg-long.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"
@@ -56,6 +58,13 @@ export default function HomePageClient() {
               </span>
             </button>
           </div>
+          <SectionHeader
+            title="PROMO KEMERDEKAAN"
+            href="/promo/promo-cuan-kemerdekaan-agustus"
+          />
+          <SliderSectionWrapper>
+            <SliderAgustus />
+          </SliderSectionWrapper>
 
           <SectionHeader title="PAKET IMPORTIR" href="/paket-importir" />
           <SliderSectionWrapper>
@@ -70,6 +79,14 @@ export default function HomePageClient() {
           <SectionHeader title="PAKET MEMBER" href="/paket-member" />
           <SliderSectionWrapper>
             <SliderMember />
+          </SliderSectionWrapper>
+
+          <SectionHeader
+            title="PAKET RISET DAN BELANJA"
+            href="/paket-riset-belanja"
+          />
+          <SliderSectionWrapper>
+            <SliderRiset />
           </SliderSectionWrapper>
         </div>
       </section>

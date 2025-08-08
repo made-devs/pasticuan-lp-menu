@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import HeroHeader from '@/components/HeroHeader';
-import { promoPasticuanInvestmentData } from '@/data/investment';
-import ImageCarouselXL from '@/components/ImageCarouselXL';
+import { useState } from "react";
+import Image from "next/image";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import HeroHeader from "@/components/HeroHeader";
+import { promoPasticuanInvestmentData } from "@/data/investment";
+import ImageCarouselXL from "@/components/ImageCarouselXL";
 
 export default function CompanyProfilePage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ export default function CompanyProfilePage() {
       <section className="relative px-4 space-y-8 pb-10">
         <div className="absolute inset-0">
           <Image
-            src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
+            src="/bg-long.webp"
             alt="Background texture"
             fill
             className="object-cover opacity-50"

@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import ProductList from '@/components/ProductList';
-import ProductModal from '@/components/ProductModal';
-import { paketInvestasiBisnisData } from '@/data/investment';
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Sidebar from "@/components/Sidebar/Sidebar";
+import ProductList from "@/components/ProductList";
+import ProductModal from "@/components/ProductModal";
+import { paketInvestasiBisnisData } from "@/data/investment";
 
 export default function PaketInvestasiBisnisPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -18,7 +18,7 @@ export default function PaketInvestasiBisnisPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1744096500/pasticuan/bg_htorhr.webp"
+          src="/bg-long.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"

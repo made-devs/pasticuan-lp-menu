@@ -1,58 +1,63 @@
-'use client';
+"use client";
 
-import { useRef, useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useRouter } from 'next/navigation';
-import { X } from 'lucide-react';
-import Image from 'next/image';
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { useRef, useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/navigation";
+import { X } from "lucide-react";
+import Image from "next/image";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const menuItems = [
   {
-    title: 'ALL MENU',
-    link: '/',
-    children: ['PAKET IMPORTIR', 'PAKET EKSPOR', 'PAKET MEMBER'],
-  },
-  {
-    title: 'PROMO',
-    link: '/promo',
+    title: "ALL MENU",
+    link: "/",
     children: [
-      'PROMO CUAN GILA-GILAAN JUNI',
-      'PROMO IMPOR',
-      'PROMO EKSPOR',
-      'REWARD MEMBER',
-      'PROMO INTERNATIONAL',
-      'PROMO PASTI KILAT',
-      'PROMO ADDITIONAL SELLING',
-      'PROMO INTERNATIONAL MANDARIN',
+      "PAKET IMPORTIR",
+      "PAKET EKSPOR",
+      "PAKET MEMBER",
+      "PAKET RISET BELANJA",
     ],
   },
   {
-    title: 'PASTICUAN MEGAZINE',
-    link: '/pasticuan-megazine',
+    title: "PROMO",
+    link: "/promo",
     children: [
-      'PASTICUAN',
-      'MEMBER',
-      'INVESTMENT',
-      'PRICELIST PASTICUAN',
-      'PASTIKILAT',
+      "PROMO CUAN KEMERDEKAAN AGUSTUS",
+      "PROMO IMPOR",
+      "PROMO EKSPOR",
+      "REWARD MEMBER",
+      "PROMO INTERNATIONAL",
+      "PROMO PASTI KILAT",
+      "PROMO ADDITIONAL SELLING",
+      "PROMO INTERNATIONAL MANDARIN",
     ],
   },
   {
-    title: 'PASTICUAN INVESTMENT',
-    link: '/pasticuan-investment',
+    title: "PASTICUAN MEGAZINE",
+    link: "/pasticuan-megazine",
     children: [
-      'HOW?',
-      'PAKET INVESTASI BISNIS',
-      'PASTIMURAH WAREHOUSE',
-      'PASTIMURAH RUKO',
-      'PAKET PASTICUAN INVESTMENT',
-      'PROMO PASTICUAN INVESTMENT',
+      "PASTICUAN",
+      "MEMBER",
+      "INVESTMENT",
+      "PRICELIST PASTICUAN",
+      "PASTIKILAT",
     ],
   },
   {
-    title: 'CONTACT US',
-    children: ['KOMODITAS'],
+    title: "PASTICUAN INVESTMENT",
+    link: "/pasticuan-investment",
+    children: [
+      "HOW?",
+      "PAKET INVESTASI BISNIS",
+      "PASTIMURAH WAREHOUSE",
+      "PASTIMURAH RUKO",
+      "PAKET PASTICUAN INVESTMENT",
+      "PROMO PASTICUAN INVESTMENT",
+    ],
+  },
+  {
+    title: "CONTACT US",
+    children: ["KOMODITAS"],
   },
 ];
 
@@ -80,14 +85,14 @@ export default function Sidebar({ isOpen, onClose }) {
   };
 
   const getSlugPath = (parentTitle, childTitle) => {
-    const parentSlug = parentTitle.toLowerCase().replace(/\s+/g, '-');
-    const childSlug = childTitle.toLowerCase().replace(/\s+/g, '-');
+    const parentSlug = parentTitle.toLowerCase().replace(/\s+/g, "-");
+    const childSlug = childTitle.toLowerCase().replace(/\s+/g, "-");
 
     // Khusus PROMO dan punya anak, kita nested
     if (
-      parentSlug === 'promo' ||
-      parentSlug == 'pasticuan-megazine' ||
-      parentSlug == 'pasticuan-investment'
+      parentSlug === "promo" ||
+      parentSlug == "pasticuan-megazine" ||
+      parentSlug == "pasticuan-investment"
     ) {
       return `/${parentSlug}/${childSlug}`;
     }
@@ -116,10 +121,10 @@ export default function Sidebar({ isOpen, onClose }) {
             ref={sidebarRef}
             key="sidebar"
             className="absolute right-0 top-0 w-3/4 max-w-[300px] h-screen bg-[#0a3b50] z-[999] p-4 pt-6 pb-10 space-y-6 shadow-lg overflow-y-auto scroll-smooth"
-            initial={{ x: '100%' }}
+            initial={{ x: "100%" }}
             animate={{ x: 0 }}
-            exit={{ x: '100%' }}
-            transition={{ type: 'tween', duration: 0.3 }}
+            exit={{ x: "100%" }}
+            transition={{ type: "tween", duration: 0.3 }}
           >
             <div className="flex justify-between items-center px-2">
               <Image src="/logo.webp" alt="Logo" width={120} height={30} />
@@ -152,7 +157,7 @@ export default function Sidebar({ isOpen, onClose }) {
                   {/* Panah dropdown */}
                   {menu.children && (
                     <span className="ml-2 text-white text-sm">
-                      {openMenus[menu.title] ? '▾' : '▸'}
+                      {openMenus[menu.title] ? "▾" : "▸"}
                     </span>
                   )}
                 </div>
@@ -165,7 +170,7 @@ export default function Sidebar({ isOpen, onClose }) {
                       : 0,
                     opacity: openMenus[menu.title] ? 1 : 0,
                   }}
-                  transition={{ duration: 0.3, ease: 'easeInOut' }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
                   className="overflow-hidden px-4"
                 >
                   <div

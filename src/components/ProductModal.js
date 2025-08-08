@@ -1,6 +1,6 @@
 // components/ProductModal.js
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function ProductModal({ product, onClose }) {
   return (
@@ -27,7 +27,7 @@ export default function ProductModal({ product, onClose }) {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 100, opacity: 0 }}
-        transition={{ type: 'tween', duration: 0.3 }}
+        transition={{ type: "tween", duration: 0.3 }}
       >
         <div className="w-full flex justify-center pt-4">
           <div className="relative w-[90%] mx-auto rounded-xl overflow-hidden shadow-lg">
@@ -51,7 +51,7 @@ export default function ProductModal({ product, onClose }) {
             </p>
           </div>
           <a
-            href="https://tinyurl.com/pasticuanWA"
+            href="https://tinyurl.com/pasticuan3"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-orange-500 text-white font-bold py-3 rounded-full shadow-md hover:bg-orange-600 transition cursor-pointer text-center block"

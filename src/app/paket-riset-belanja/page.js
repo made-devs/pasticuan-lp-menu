@@ -7,9 +7,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import ProductList from "@/components/ProductList";
 import ProductModal from "@/components/ProductModal";
-import promoCuanGilaJuni from "@/data/promoCuanGilaJuni";
+import paketRisetBelanja from "@/data/paketRisetBelanja";
 
-export default function PaketImportirPage() {
+export default function PaketRisetBelanjaPage() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,7 @@ export default function PaketImportirPage() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/df7lzicrz/image/upload/v1743750827/bg.webp"
+          src="/bg.webp"
           alt="Background texture"
           fill
           className="object-cover opacity-50"
@@ -33,14 +33,7 @@ export default function PaketImportirPage() {
         <Link href="/">
           <button className="text-white cursor-pointer text-xl">{`←`}</button>
         </Link>
-        <div className="relative w-[80%]">
-          {/* <input
-            type="text"
-            placeholder="Search from here"
-            className="w-full rounded-full px-4 py-2 text-sm text-black placeholder:text-gray-400"
-          />
-          <div className="absolute right-2 top-1/2 -translate-y-1/2">🔍</div> */}
-        </div>
+        <div className="relative w-[80%]">{/* Search bar (optional) */}</div>
         <button
           className="text-white cursor-pointer text-xl"
           onClick={() => setIsOpen(true)}
@@ -50,16 +43,33 @@ export default function PaketImportirPage() {
       </div>
 
       {/* Judul */}
-      <div className="flex justify-center mb-6 relative z-10">
+      <div className="flex justify-center mb-4 relative z-10">
         <div className="bg-orange-500 px-6 py-2 rounded-full shadow-md">
           <h1 className="text-xl font-extrabold drop-shadow-[1px_4px_3px_rgba(0,0,0,0.7)]">
-            PROMO CUAN GILA-GILAAN
+            PAKET RISET & BELANJA
           </h1>
         </div>
       </div>
 
+      {/* Deskripsi Tambahan */}
+      <div className="text-center text-white/95 text-sm leading-relaxed mt-4 relative z-10 px-2">
+        <p className="mb-2">
+          Mau mulai bisnis impor, tapi takut ribet atau kena tipu? Tenang, ada
+          solusinya! 💡
+        </p>
+        <p>
+          Kenalin, Paket Riset & Belanja Marketplace China dari Pasticuan –
+          solusi lengkap untuk bantu kamu impor dengan aman, mudah, dan cuan
+          maksimal,{" "}
+          <strong className="text-yellow-300 font-bold uppercase">
+            PROFIT HINGGA 3000% LOH!
+          </strong>{" "}
+          🚀
+        </p>
+      </div>
+
       {/* Product List */}
-      <ProductList products={promoCuanGilaJuni} onSelect={setSelectedProduct} />
+      <ProductList products={paketRisetBelanja} onSelect={setSelectedProduct} />
 
       {/* Modal */}
       <AnimatePresence>
