@@ -5,9 +5,9 @@ const paketRisetBelanja = [
     name: "PAKET STARTER",
     price: "Rp 750.000",
     image:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/1.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-STARTER.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/1.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-STARTER.webp",
     img_modal:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/1.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-STARTER.webp", // Ditambahkan untuk modal
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/1.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-STARTER.webp", // Ditambahkan untuk modal
     desc: "Paket untuk pemula yang ingin mencoba riset dan belanja dari marketplace China dengan support penuh.",
     desc_modal:
       "Fitur unggulan: Garansi 1x Riset, Rekomendasi 3 Supplier, Riset Max 3 Komoditas Potensial, dan Free Konsultasi Bisnis.", // Ditambahkan untuk modal
@@ -35,9 +35,9 @@ const paketRisetBelanja = [
     name: "PAKET PRO",
     price: "Rp 1.250.000",
     image:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/2.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-PRO-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/2.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-PRO-1.webp",
     img_modal:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/2.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-PRO-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/2.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-PRO-1.webp",
     desc: "Paket lanjutan dengan kapasitas riset lebih besar dan fitur tambahan untuk optimasi bisnis.",
     desc_modal:
       "Fitur unggulan: Garansi 3x Riset, Rekomendasi 6 Supplier, Riset Max 6 Komoditas, dan QC by Foto/Video.",
@@ -63,9 +63,9 @@ const paketRisetBelanja = [
     name: "PAKET SUPER PRO",
     price: "Rp 1.750.000",
     image:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/3.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-SUPER-PRO-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/3.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-SUPER-PRO-1.webp",
     img_modal:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/3.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-SUPER-PRO-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/3.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-SUPER-PRO-1.webp",
     desc: "Paket superior untuk pebisnis serius dengan garansi riset lebih banyak dan katalog produk viral.",
     desc_modal:
       "Fitur unggulan: Garansi 5x Riset, Rekomendasi 8 Supplier, Riset Max 8 Komoditas, dan Free 500 Katalog Produk Viral.",
@@ -90,9 +90,9 @@ const paketRisetBelanja = [
     name: "PAKET UNLIMITED MONTHLY",
     price: "Rp 1.500.000/Bulan",
     image:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/4.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-UNLIMITED-MONTHLY-1-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/4.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-UNLIMITED-MONTHLY-1-1.webp",
     img_modal:
-      "https://pasticuan.co.id/wp-content/uploads/2025/08/4.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-UNLIMITED-MONTHLY-1-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/08/4.-PAKET-RISET-BELANJA-MARKETPLACE-CHINA-UNLIMITED-MONTHLY-1-1.webp",
     desc: "Layanan tanpa batas untuk riset, belanja, dan support bisnis selama sebulan penuh.",
     desc_modal:
       "Fitur unggulan: 22 Support Bisnis Digital, Riset & Price List Unlimited, QC All In, Riset Kompetitor, dan Free Jaringan Reseller.",
