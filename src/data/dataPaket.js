@@ -205,9 +205,9 @@ export const allExportPackages = [
 export const allMemberPackages = [
   {
     title: "MEMBER BASIC",
-    desc: "Jadi Pengusaha Ekspor-Impor Rp 1.5 Juta! Potensi Miliaran, Profit 3000%, Support Lengkap.",
+    desc: "Jadi Pengusaha Ekspor-Impor Rp 1.5 Juta! Potensi Miliaran, Profit 3000%, Support Lengkap dan mendapatkan ribuan set produk impor viral siap jual..",
     desc_modal:
-      "Paket Cuan Member Basic menawarkan peluang menjadi pengusaha ekspor-impor dengan harga diskon spesial Rp 1.500.000. Member akan mendapatkan 20 support kebutuhan marketing, 50 jenis komisi, serta potensi income penjualan hingga 50 Juta/bulan dan referral hingga 86 Juta/bulan atau lebih. Nikmati profit hingga 3000% dari penjualan produk termurah, gratis pelatihan bisnis digital senilai 20 Juta, dan 22 support bisnis gratis senilai 50 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
+      "Paket Cuan Member Basic menawarkan peluang menjadi pengusaha ekspor-impor dengan harga diskon spesial Rp 1.500.000. Member akan mendapatkan ribuan set produk impor viral siap jual, 20 support kebutuhan marketing, 50 jenis komisi, serta potensi income penjualan hingga 50 Juta/bulan dan referral hingga 86 Juta/bulan atau lebih. Nikmati profit hingga 3000% dari penjualan produk termurah, gratis pelatihan bisnis digital senilai 20 Juta, dan 22 support bisnis gratis senilai 50 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
     price: "1.5 JUTA",
     image: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
     img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
