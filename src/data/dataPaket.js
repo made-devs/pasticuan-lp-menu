@@ -80,40 +80,33 @@ export const memberPackages = [
   {
     title: "MEMBER BASIC",
     price: "Rp 1.500.000",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-BASIC-copy.webp",
-    img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-BASIC-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
     desc_modal:
       "Member Gold menawarkan akses ke fitur-fitur dasar keanggotaan dengan harga terjangkau dan banyak manfaat awal.",
   },
   {
     title: "MEMBER GOLD",
     price: "Rp 2.500.000",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-GOLD-copy.webp",
-    img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-GOLD-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/GOLD.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/GOLD.webp",
     desc_modal:
       "Member Gold menawarkan akses ke fitur-fitur dasar keanggotaan dengan harga terjangkau dan banyak manfaat awal.",
   },
   {
     title: "MEMBER PLATINUM",
     price: "Rp 5.000.000",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-PLATINUM-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/PLATINUM.webp",
     img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-PLATINUM-copy.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/09/PLATINUM.webp",
     desc_modal:
       "Member Platinum memberikan layanan prioritas dan tambahan keuntungan bagi pengguna aktif dan loyal.",
   },
   {
     title: "MEMBER DIAMOND",
     price: "Rp 20.000.000,-",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-DIAMOND-copy.webp",
-    img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/PAKET-CUAN-MEMBER-DIAMOND-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/DIAMOND.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/DIAMOND.webp",
     desc_modal:
       "Paket tertinggi dengan akses eksklusif, konsultasi pribadi, dan benefit premium lainnya untuk pengguna elite.",
   },
@@ -216,10 +209,8 @@ export const allMemberPackages = [
     desc_modal:
       "Paket Cuan Member Basic menawarkan peluang menjadi pengusaha ekspor-impor dengan harga diskon spesial Rp 1.500.000. Member akan mendapatkan 20 support kebutuhan marketing, 50 jenis komisi, serta potensi income penjualan hingga 50 Juta/bulan dan referral hingga 86 Juta/bulan atau lebih. Nikmati profit hingga 3000% dari penjualan produk termurah, gratis pelatihan bisnis digital senilai 20 Juta, dan 22 support bisnis gratis senilai 50 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
     price: "1.5 JUTA",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-BASIC-copy.webp",
-    img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/05/IMG_1526-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/BASIC.webp",
     cta: "LIHAT PAKET",
   },
   {
@@ -228,10 +219,8 @@ export const allMemberPackages = [
     desc_modal:
       "Paket Cuan Member Gold, kini tersedia dengan harga diskon Rp 2.500.000 (dari harga normal Rp 15.000.000), adalah solusi optimal untuk menjadi pengusaha ekspor-impor. Member akan mendapatkan ribuan set produk impor viral siap jual, 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, serta 50 jenis komisi. Paket ini menawarkan potensi income penjualan hingga 60 Juta/bulan dan income referral hingga 107 Juta/bulan atau lebih. Anda berkesempatan menjual produk termurah dengan profit hingga 3000%, dilengkapi gratis pelatihan bisnis digital senilai 20 Juta Rupiah, membuka peluang cuan hingga miliaran Rupiah.",
     price: "2.5 JUTA",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-GOLD-copy.webp",
-    img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/04/IMG_6552-copy-scaled.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/GOLD.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/GOLD.webp",
     cta: "LIHAT PAKET",
   },
   {
@@ -240,10 +229,9 @@ export const allMemberPackages = [
     desc_modal:
       "Program Cuan Member Platinum, kini tersedia dengan diskon besar menjadi Rp 5.000.000 (dari harga normal Rp 35.000.000), merupakan jalur premium untuk menjadi pengusaha ekspor-impor. Keanggotaan ini mencakup ribuan set produk impor viral siap jual, 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, dan akses ke 50 jenis komisi. Dengan paket Platinum, Anda dapat mencapai potensi income penjualan hingga 75 Juta/bulan dan income referral melampaui 128 Juta/bulan. Manfaatkan peluang penjualan produk termurah dengan profit mencapai 3000% serta pelatihan bisnis digital gratis senilai 20 Juta Rupiah, membuka gerbang pendapatan hingga miliaran Rupiah.",
     price: "5 JUTA",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-PLATINUM-copy.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/PLATINUM.webp",
     img_modal:
-      "http://pasticuan.co.id/wp-content/uploads/2025/04/Untitled-1.webp",
+      "http://pasticuan.co.id/wp-content/uploads/2025/09/PLATINUM.webp",
     cta: "LIHAT PAKET",
   },
   {
@@ -252,9 +240,8 @@ export const allMemberPackages = [
     desc_modal:
       "Program Cuan Member Diamond, ditawarkan dengan harga spesial Rp 20.000.000 (dari harga normal Rp 135.000.000), merupakan puncak kesempatan untuk menjadi pengusaha ekspor-impor. Keanggotaan ini menyediakan ribuan set produk impor viral siap jual, 26 support kebutuhan marketing, 22 support bisnis gratis senilai 50 Juta Rupiah, dan akses ke 50 jenis komisi. Uniknya, Anda berpeluang meraih potensi income tak terhingga dari jaringan kaki, ditambah potensi income penjualan mencapai 150 Juta/bulan dan income referral melampaui 160 Juta/bulan. Manfaatkan kesempatan penjualan produk termurah dengan profit hingga 3000% serta pelatihan bisnis digital gratis senilai 20 Juta Rupiah, membuka jalan menuju pendapatan miliaran Rupiah.",
     price: "20 JUTA",
-    image:
-      "http://pasticuan.co.id/wp-content/uploads/2025/06/PAKET-MEMBER-DIAMOND-copy.webp",
-    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/04/7-1-1.webp",
+    image: "http://pasticuan.co.id/wp-content/uploads/2025/09/DIAMOND.webp",
+    img_modal: "http://pasticuan.co.id/wp-content/uploads/2025/09/DIAMOND.webp",
     cta: "LIHAT PAKET",
   },
 ];
