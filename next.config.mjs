@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: "pasticuan.co.id",
         pathname: "/**", // semua path diizinkan
       },
+      {
+        protocol: "https",
+        hostname: "pasticuan.co.id",
+        pathname: "/**", // semua path diizinkan
+      },
     ],
   },
 };
